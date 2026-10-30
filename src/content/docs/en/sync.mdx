@@ -1,0 +1,34 @@
+---
+title: How sync works
+description: Previews first. Message bodies and attachments when you need them.
+locale: en
+docSlug: sync
+order: 3
+source: https://github.com/nextmail-dev/nextmail/blob/main/README.md
+---
+
+## Previews first
+
+Synchronizing a folder receives the sender, subject, date, read state, flags, basic attachment information, and a **small text preview**. It does not automatically download the complete body or attachment files.
+
+A stable preview keeps the list from changing height as content arrives. Messages become visible progressively, and the app renders only the portion of the list needed for the current view.
+
+## Bodies on demand
+
+Opening a message fetches the content needed to read it, including required inline resources. If you do not open it, the full body is not downloaded by default. Content already saved locally remains available without fetching it again.
+
+Local-first reading applies to content already present on the device. A body that has never been downloaded still needs a network connection.
+
+## Attachments on demand
+
+Seeing a file name or attachment size does not download the file. Opening or saving an attachment fetches that attachment. Other attachments stay on the server until requested.
+
+When saving an attachment, NextMail asks for a destination before starting the download. Canceling that dialog does not create a download request.
+
+## Optional full-message sync
+
+You can explicitly enable full-message synchronization for an account to fetch message bodies in the background. This changes body downloading; it does not mean all attachment files are fetched automatically.
+
+## Changes that survive interruptions
+
+Read state, stars, moves, copies, archive, deletion, drafts, and outgoing mail use persistent tasks. Local changes can be shown first and synchronized with the server. Recovery after an interruption is part of this model, not a promise that every server action will succeed without a connection.

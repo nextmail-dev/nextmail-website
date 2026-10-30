@@ -1,0 +1,38 @@
+---
+title: 常见问题
+description: 关于离线阅读、邮箱兼容、安装下载和当前边界的实用说明。
+locale: zh-CN
+docSlug: faq
+order: 5
+source: https://github.com/nextmail-dev/nextmail/blob/main/README_ZH.md
+---
+
+## 可以离线阅读吗？
+
+已经保存到本地的内容可以继续阅读。尚未获取的正文或附件仍然需要联网。可以为账户开启全文同步，在后台补充下载正文，附件仍然按需获取。
+
+## 有统一收件箱吗？
+
+目前没有。NextMail 支持多个账户和账户切换，但尚未提供统一收件箱、跨账户搜索或会话聚合。
+
+## 我的邮箱能接入吗？
+
+NextMail 使用 IMAP/SMTP 密码认证，能为多种服务商发现服务器设置，但服务商必须允许这种接入方式。你可能需要应用专用密码、授权码，或先开启 IMAP/SMTP。目前不支持 OAuth 登录。
+
+## 为什么系统提示开发者未经验证？
+
+Windows 预览版尚未正式签名；macOS 使用 ad-hoc 签名，尚未通过 Apple 公证。这是当前的分发限制，请只使用[官方下载入口](/zh-CN/download/)。
+
+## Linux 可以用吗？
+
+Linux x64 提供早期测试包，尚未经过与 Windows、macOS 同等程度的验收。发行版依赖和桌面集成差异可能影响兼容性。
+
+## 系统通知支持什么？
+
+系统通知可在设置中开启。v1.1.1 支持点击新邮件通知，恢复主窗口并打开对应邮件；多封邮件的汇总通知会定位到该批最后一封。
+
+Windows 支持点击正在显示的通知横幅，暂不支持从通知中心历史记录定位，也不支持应用完全退出后通过通知启动并定位。macOS 和 Linux 的行为取决于系统通知服务。
+
+## 在哪里关注开发进度？
+
+可以查看[更新日志](/zh-CN/changelog/)、[项目仓库](https://github.com/nextmail-dev/nextmail)和 [GitHub Releases](https://github.com/nextmail-dev/nextmail/releases)。即使 GitHub 没有把版本标记为预发布，产品当前仍处于 Preview。

@@ -1,0 +1,18 @@
+---
+interface Props {
+  large?: boolean;
+}
+const { large = false } = Astro.props;
+---
+
+<span class:list={['brand', { 'brand-large': large }]}>
+  <img
+    src="/brand/icon.webp"
+    width={large ? 60 : 36}
+    height={large ? 60 : 36}
+    alt=""
+  />
+  <span>
+    NextMail<span class="brand-period">.</span>
+  </span>
+</span>

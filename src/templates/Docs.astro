@@ -1,0 +1,160 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+import { Search, ArrowRight, ArrowUpRight } from 'lucide-astro';
+import { href, type Locale } from '../config/site';
+import { useTranslations } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+  doc: CollectionEntry<'docs'>;
+  docs: CollectionEntry<'docs'>[];
+}
+const { locale, doc, docs } = Astro.props;
+const t = useTranslations(locale);
+const { Content, headings } = await render(doc);
+const ordered = docs
+  .filter((d) => d.data.locale === locale)
+  .sort((a, b) => a.data.order - b.data.order);
+const next = ordered[ordered.findIndex((d) => d.id === doc.id) + 1];
+const docHref = (slug: string) =>
+  href(locale, slug === 'getting-started' ? 'docs' : `docs/${slug}`);
+---
+
+<div class="shell">
+  <section class="docs-header">
+    <span class="eyebrow">{t.docs.label}</span>
+    <h2 class="display">{t.docs.title}</h2>
+    <p>{t.docs.description}</p>
+  </section>
+  <div class="docs-layout">
+    <aside class="docs-sidebar">
+      <label class="doc-search-label">
+        <Search aria-hidden="true" size={15} />
+        <span class="sr-only">{t.docs.search}</span>
+        <input
+          type="search"
+          id="docs-search"
+          placeholder={t.docs.placeholder}
+          data-index={`/search/${locale}.json`}
+          aria-controls="docs-search-results"
+          autocomplete="off"
+        />
+      </label>
+      <span class="eyebrow">{t.footer.handbook}</span>
+      <nav aria-label={t.footer.handbook}>
+        {ordered.map((entry) => (
+          <a
+            href={docHref(entry.data.docSlug)}
+            aria-current={entry.id === doc.id ? 'page' : undefined}
+          >
+            {entry.data.title}
+          </a>
+        ))}
+      </nav>
+    </aside>
+    <article class="doc-article">
+      <div
+        class="doc-search-results"
+        id="docs-search-results"
+        hidden
+        aria-live="polite"
+        data-empty={t.docs.noResults}
+      ></div>
+      <header>
+        <h1>{doc.data.title}</h1>
+        <p>{doc.data.description}</p>
+      </header>
+      <div class="prose">
+        <Content />
+      </div>
+      <div class="doc-end">
+        <p>{t.docs.verified}</p>
+        <a class="text-link" href={doc.data.source}>
+          {t.docs.source}
+          <ArrowUpRight aria-hidden="true" size={13} />
+        </a>
+      </div>
+      {next && (
+        <a class="doc-next" href={docHref(next.data.docSlug)}>
+          <div>
+            <span>{t.docs.next}</span>
+            <strong>{next.data.title}</strong>
+          </div>
+          <ArrowRight aria-hidden="true" size={18} />
+        </a>
+      )}
+    </article>
+    <aside class="docs-toc">
+      <span class="eyebrow">{t.docs.contents}</span>
+      <nav aria-label={t.docs.contents}>
+        {headings
+          .filter((h) => h.depth === 2)
+          .map((heading) => (
+            <a href={`#${heading.slug}`}>{heading.text}</a>
+          ))}
+      </nav>
+    </aside>
+  </div>
+</div>
+<script>
+  type SearchEntry = {
+    title: string;
+    description: string;
+    text: string;
+    url: string;
+  };
+  const input = document.querySelector<HTMLInputElement>('#docs-search');
+  const results = document.querySelector<HTMLElement>('#docs-search-results');
+  let searchIndex: SearchEntry[] | null = null;
+  let pending: Promise<SearchEntry[]> | null = null;
+  async function getIndex() {
+    if (searchIndex) return searchIndex;
+    pending ||= fetch(input?.dataset.index || '').then((r) => {
+      if (!r.ok) throw new Error('Search unavailable');
+      return r.json() as Promise<SearchEntry[]>;
+    });
+    try {
+      searchIndex = await pending;
+      return searchIndex;
+    } catch {
+      pending = null;
+      return [];
+    }
+  }
+  input?.addEventListener(
+    'focus',
+    () => {
+      void getIndex();
+    },
+    { once: true },
+  );
+  let sequence = 0;
+  input?.addEventListener('input', async () => {
+    const current = ++sequence;
+    const query = input.value.trim().toLocaleLowerCase();
+    if (!results) return;
+    results.hidden = !query;
+    if (!query) {
+      results.replaceChildren();
+      return;
+    }
+    const entries = await getIndex();
+    if (current !== sequence) return;
+    const matches = entries.filter((entry) =>
+      `${entry.title} ${entry.description} ${entry.text}`
+        .toLocaleLowerCase()
+        .includes(query),
+    );
+    results.replaceChildren();
+    for (const entry of matches) {
+      const a = document.createElement('a');
+      a.href = entry.url;
+      a.textContent = entry.title;
+      results.append(a);
+    }
+    if (!matches.length) {
+      const p = document.createElement('p');
+      p.textContent = results.dataset.empty || '';
+      results.append(p);
+    }
+  });
+</script>

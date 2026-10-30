@@ -1,0 +1,43 @@
+---
+import { Image } from 'astro:assets';
+import enLight from '../assets/screenshots/en-light.png';
+import enDark from '../assets/screenshots/en-dark.png';
+import zhLight from '../assets/screenshots/zh-light.png';
+import zhDark from '../assets/screenshots/zh-dark.png';
+import type { Locale } from '../config/site';
+interface Props {
+  locale: Locale;
+  mode?: 'auto' | 'dark' | 'light';
+  hero?: boolean;
+  crop?: string;
+}
+const { locale, mode = 'auto', hero = false, crop = '' } = Astro.props;
+const zh = locale === 'zh-CN';
+const alt = zh
+  ? 'NextMail 三栏工作区：账户与文件夹、邮件列表和邮件阅读面板。展示演示内容。'
+  : 'NextMail’s three-pane workspace: accounts and folders, message list, and a rich email reading pane. Demo content.';
+const sources =
+  mode === 'auto'
+    ? [zh ? zhLight : enLight, zh ? zhDark : enDark]
+    : [mode === 'dark' ? (zh ? zhDark : enDark) : zh ? zhLight : enLight];
+---
+
+<div class:list={['app-screenshot', crop, { 'auto-theme': mode === 'auto' }]}>
+  {sources.map((src, index) => (
+    <Image
+      src={src}
+      alt={alt}
+      class={index === 1 ? 'shot-dark' : 'shot-light'}
+      widths={hero ? [640, 960, 1280, 1800, 2400] : [640, 960, 1440]}
+      sizes={
+        hero
+          ? '(max-width: 768px) 100vw, 1200px'
+          : '(max-width: 768px) 100vw, 720px'
+      }
+      format="webp"
+      quality={85}
+      loading={hero ? 'eager' : 'lazy'}
+      fetchpriority={hero && index === 0 ? 'high' : 'auto'}
+    />
+  ))}
+</div>

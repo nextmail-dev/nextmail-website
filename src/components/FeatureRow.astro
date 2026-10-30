@@ -1,0 +1,69 @@
+---
+import { ArrowRight, Check } from 'lucide-astro';
+import Screenshot from './Screenshot.astro';
+import { href, type Locale } from '../config/site';
+import { useTranslations } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+  variant?: 'reading' | 'writing';
+}
+const { locale, variant = 'reading' } = Astro.props;
+const t = useTranslations(locale);
+const section = t.home[variant];
+---
+
+<section
+  class:list={['feature-row', { reverse: variant === 'writing' }]}
+  data-reveal
+>
+  <div class="feature-copy">
+    <span class="eyebrow">{section.label}</span>
+    <h2 class="display">{section.title}</h2>
+    <p>{section.text}</p>
+    <ul class="feature-list">
+      {section.bullets.map((bullet) => (
+        <li>
+          <Check aria-hidden="true" size={14} />
+          {bullet}
+        </li>
+      ))}
+    </ul>
+    <a
+      class="text-link"
+      href={
+        href(locale, 'features') +
+        (variant === 'writing' ? '#desktop' : '#reading')
+      }
+    >
+      {section.link}
+      <ArrowRight aria-hidden="true" size={16} />
+    </a>
+  </div>
+  <div
+    class:list={[
+      'feature-visual',
+      variant === 'writing' ? 'visual-ink' : 'visual-paper',
+    ]}
+  >
+    <span class="visual-corner mono">
+      NEXTMAIL /{' '}
+      {variant === 'writing'
+        ? locale === 'en'
+          ? 'DARK'
+          : '深色'
+        : locale === 'en'
+          ? 'LIGHT'
+          : '浅色'}
+    </span>
+    <Screenshot
+      locale={locale}
+      mode={variant === 'writing' ? 'dark' : 'light'}
+      crop={variant === 'writing' ? 'crop-reader' : 'crop-workspace'}
+    />
+    <span class="visual-bottom mono">
+      {locale === 'en'
+        ? 'ACTUAL APPLICATION · DEMO CONTENT'
+        : '真实应用截图 · 演示内容'}
+    </span>
+  </div>
+</section>

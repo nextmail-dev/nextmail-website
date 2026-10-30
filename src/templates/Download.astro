@@ -1,0 +1,179 @@
+---
+import {
+  Monitor,
+  Laptop,
+  Terminal,
+  ArrowDownToLine,
+  ArrowUpRight,
+  ShieldAlert,
+  ArrowRight,
+} from 'lucide-astro';
+import { site, href, type Locale } from '../config/site';
+import { useTranslations } from '../i18n/ui';
+import {
+  latestRelease,
+  latestPrerelease,
+  latestStable,
+  downloads,
+  releaseData,
+} from '../lib/releases';
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+const channels = [latestRelease, latestStable, latestPrerelease].filter(
+  (r, i, all) => r && all.findIndex((item) => item?.tag === r.tag) === i,
+);
+const platforms = [
+  { id: 'windows', icon: Monitor },
+  { id: 'macos', icon: Laptop },
+  { id: 'linux', icon: Terminal },
+] as const;
+---
+
+<div class="shell download-page">
+  <section class="page-heading">
+    <span class="eyebrow">{t.download.label}</span>
+    <h1 class="display">{t.download.title}</h1>
+    <p>{t.download.description}</p>
+  </section>
+  <aside class="notice download-notice">
+    <ShieldAlert aria-hidden="true" size={23} />
+    <div>
+      <h2>
+        {t.download.install} <span class="mono">/ PREVIEW</span>
+      </h2>
+      <p>{t.download.warning}</p>
+    </div>
+  </aside>
+  {channels.length ? (
+    channels.map(
+      (release, index) =>
+        release && (
+          <section
+            class="release-downloads"
+            aria-label={`${t.download.latest} ${release.tag}`}
+          >
+            <div class="release-heading">
+              <div>
+                <span class="status-dot"></span>
+                <h2>
+                  {index === 0
+                    ? t.download.latest
+                    : release.prerelease
+                      ? t.download.prerelease
+                      : t.download.stable}{' '}
+                  <span class="mono">{release.tag}</span>
+                </h2>
+              </div>
+              <a class="text-link" href={release.url}>
+                {release.publishedAt.slice(0, 10)}
+                <ArrowUpRight aria-hidden="true" size={14} />
+              </a>
+            </div>
+            <div class="download-grid">
+              {platforms.map(({ id, icon: Icon }) => {
+                const assets = downloads(release).filter(
+                  (a) => a.platform === id,
+                );
+                return (
+                  assets.length > 0 && (
+                    <article
+                      class="download-card"
+                      id={index === 0 ? id : `${id}-${release.tag}`}
+                      data-os={id}
+                    >
+                      <div class="download-card-top">
+                        <Icon aria-hidden="true" size={29} stroke-width={1.2} />
+                        <span class="micro-label">
+                          {id === 'linux'
+                            ? t.download.experimental
+                            : t.download.primary}
+                        </span>
+                      </div>
+                      <h3>{t.download[id]}</h3>
+                      <p class="system-requirement">{t.download[`${id}Req`]}</p>
+                      <span class="recommended-label mono" hidden>
+                        {t.download.recommended} ↓
+                      </span>
+                      <div class="asset-list">
+                        {assets.map((asset) => (
+                          <a href={asset.url} class="asset-link">
+                            <span>
+                              <strong>{asset.arch}</strong>
+                              <span class="mono">
+                                {asset.format}{' '}
+                                <span class="asset-size">
+                                  / {(asset.size / 1024 / 1024).toFixed(1)} MB
+                                </span>
+                              </span>
+                            </span>
+                            <ArrowDownToLine aria-hidden="true" size={19} />
+                            <span class="sr-only">{asset.name}</span>
+                          </a>
+                        ))}
+                      </div>
+                    </article>
+                  )
+                );
+              })}
+            </div>
+          </section>
+        ),
+    )
+  ) : (
+    <p class="notice">
+      {t.download.unavailable}
+      <a href={site.releases}>
+        GitHub Releases
+        <ArrowUpRight aria-hidden="true" size={16} />
+      </a>
+    </p>
+  )}
+  <div class="download-details">
+    <div>
+      <span class="eyebrow">LINUX / {t.download.experimental}</span>
+      <p>{t.download.linuxDetail}</p>
+      <a
+        class="text-link"
+        href="https://v2.tauri.app/start/prerequisites/#linux"
+      >
+        {t.download.requirements}
+        <ArrowUpRight aria-hidden="true" size={14} />
+      </a>
+    </div>
+    <div>
+      <span class="eyebrow">PREVIEW</span>
+      <p>{latestPrerelease ? t.changelog.note : t.download.noPreview}</p>
+      <a class="text-link" href={href(locale, 'docs')}>
+        {t.footer.handbook}
+        <ArrowRight aria-hidden="true" size={14} />
+      </a>
+    </div>
+  </div>
+  <div class="snapshot-note">
+    <span class="mono">
+      {t.common.updated}{' '}
+      {releaseData.checkedAt ? releaseData.checkedAt.slice(0, 10) : '—'}
+    </span>
+    <p>{t.download.refresh}</p>
+    <a class="text-link" href={site.releases}>
+      GitHub Releases
+      <ArrowUpRight aria-hidden="true" size={15} />
+    </a>
+  </div>
+  <div class="download-history">
+    <h2 class="display">{t.download.history}</h2>
+    <div>
+      <a class="text-link" href={site.releases}>
+        {t.download.historyLink}
+        <ArrowUpRight aria-hidden="true" size={17} />
+      </a>
+      <a class="text-link" href={href(locale, 'changelog')}>
+        {t.download.changelog}
+        <ArrowRight aria-hidden="true" size={17} />
+      </a>
+    </div>
+  </div>
+</div>

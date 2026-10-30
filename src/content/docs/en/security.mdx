@@ -1,0 +1,30 @@
+---
+title: Security and local data
+description: What is stored locally, how credentials are handled, and the limits of Preview builds.
+locale: en
+docSlug: security
+order: 4
+source: https://github.com/nextmail-dev/nextmail/blob/main/docs/project.md
+---
+
+## Credentials and mail data
+
+Account passwords are stored in the **operating system’s secure credential store**. The mail database and downloaded content are kept in the local data directory you choose. Configuration and window preferences use the system’s application configuration area.
+
+These are storage boundaries, not a claim that your local mailbox is end-to-end encrypted. Protect access to your device and include important local content in your backup plan.
+
+## Reading HTML safely
+
+NextMail sanitizes HTML and CSS before display. Scripts, forms, unsafe links, and remote content are constrained. Remote images remain under your control, while supported inline images and familiar layouts are preserved where possible.
+
+Downloaded attachments are checked before opening or saving. A security check does not make an attachment trustworthy: use the same care you would with files received through any other mail client.
+
+## Updates and application signing
+
+NextMail supports signed update checks through the Tauri updater. **Updater signatures are separate from operating-system application signing.**
+
+Preview builds do not have production Windows code signing. macOS builds use ad-hoc signing and have not been notarized by Apple. Only obtain builds from the official [GitHub Releases](https://github.com/nextmail-dev/nextmail/releases).
+
+## Reporting a problem
+
+Use the project’s [issue tracker](https://github.com/nextmail-dev/nextmail/issues) for reproducible product problems. Remove passwords, authorization codes, account details, and private message content from any report or screenshot before sharing it publicly.

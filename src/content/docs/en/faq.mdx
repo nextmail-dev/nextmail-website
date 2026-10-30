@@ -1,0 +1,38 @@
+---
+title: Frequently asked questions
+description: Practical answers about offline mail, account support, downloads, and current limitations.
+locale: en
+docSlug: faq
+order: 5
+source: https://github.com/nextmail-dev/nextmail/blob/main/README.md
+---
+
+## Can I read mail offline?
+
+Yes, when that content has already been stored locally. A message body or attachment that has not been fetched still needs a connection. Optional per-account full-message sync can download bodies in the background; attachments remain on demand.
+
+## Is there a unified inbox?
+
+Not currently. NextMail supports multiple accounts and switching between them. Unified inboxes, cross-account search, and conversation aggregation are not implemented.
+
+## Will my provider work?
+
+NextMail uses IMAP/SMTP with password authentication. It can discover settings for many providers, but your provider must allow this access. App passwords, authorization codes, or enabling IMAP/SMTP may be necessary. OAuth sign-in is not available.
+
+## Why does my OS show a warning?
+
+Preview builds are not production-signed on Windows. macOS builds are ad-hoc signed and are not notarized by Apple. This is a current distribution limitation. Only use the official [download links](/download/).
+
+## Is Linux supported?
+
+Linux x64 packages are available for early testing. They have not received the same validation as Windows and macOS. Distribution dependencies and desktop integration can affect compatibility.
+
+## What can system notifications do?
+
+System notifications can be enabled in settings. In v1.1.1, clicking a new-mail notification restores the main window and opens its message; a summary points to the last message in that batch.
+
+On Windows, clicking an actively displayed banner is supported. Clicking an older notification in Notification Center or launching and locating mail after the app has fully quit is not supported. macOS and Linux behavior depends on the system notification service.
+
+## Where can I follow development?
+
+See the [changelog](/changelog/), [source repository](https://github.com/nextmail-dev/nextmail), and [GitHub Releases](https://github.com/nextmail-dev/nextmail/releases). Product status remains Preview even when GitHub marks a release as non-prerelease.

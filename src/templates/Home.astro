@@ -1,0 +1,150 @@
+---
+import {
+  ArrowRight,
+  ArrowUpRight,
+  HardDrive,
+  RefreshCw,
+  Download,
+  GitBranch,
+  Code2,
+} from 'lucide-astro';
+import Screenshot from '../components/Screenshot.astro';
+import DownloadButton from '../components/DownloadButton.astro';
+import FeatureRow from '../components/FeatureRow.astro';
+import SyncStory from '../components/SyncStory.astro';
+import DownloadCTA from '../components/DownloadCTA.astro';
+import { site, href, type Locale } from '../config/site';
+import { latestRelease } from '../lib/releases';
+import { useTranslations } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+const icons = [HardDrive, RefreshCw, Download];
+---
+
+<div class="home-grid">
+  <section class="hero shell">
+    <div class="hero-copy">
+      <a class="release-link mono" href={href(locale, 'changelog')}>
+        <span class="status-dot"></span>
+        {latestRelease?.tag || 'NextMail'}{' '}
+        <span class="release-divider">/</span> {t.common.preview}
+        <ArrowRight aria-hidden="true" size={13} />
+      </a>
+      <h1 class="hero-title">
+        {t.home.line1}
+        <br />
+        <em>{t.home.line2}</em>
+      </h1>
+      <p class="hero-subtitle">{t.home.subtitle}</p>
+      <p class="hero-description">{t.home.description}</p>
+      <div class="button-row">
+        <DownloadButton locale={locale} />
+        <a
+          class="button button-secondary"
+          href={site.repository}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {t.common.github}
+          <ArrowUpRight aria-hidden="true" size={16} />
+        </a>
+      </div>
+      <p class="hero-platforms">
+        <span>{t.common.platforms}</span>
+        <a href={href(locale, 'download')}>
+          {t.common.allDownloads}
+          <ArrowRight aria-hidden="true" size={12} />
+        </a>
+      </p>
+    </div>
+    <figure class="hero-product">
+      <div class="product-stage">
+        <div class="stage-label mono">
+          <span>
+            {locale === 'en'
+              ? 'NEXTMAIL — THE DESKTOP EDITION'
+              : 'NEXTMAIL — 桌面邮件客户端'}
+          </span>
+          <span>
+            {locale === 'en'
+              ? 'LOCAL FIRST / BY DESIGN'
+              : '本地优先 / 从设计开始'}
+          </span>
+        </div>
+        <Screenshot locale={locale} hero />
+        <div class="stage-baseline"></div>
+      </div>
+      <figcaption>
+        <span class="caption-index">FIG. 01</span>
+        {t.home.screenshot}
+        <span class="caption-right">
+          {locale === 'en'
+            ? 'A FAMILIAR SPACE. A DIFFERENT PACE.'
+            : '熟悉的空间，自己的节奏。'}
+        </span>
+      </figcaption>
+    </figure>
+  </section>
+</div>
+<section
+  class="values shell"
+  aria-label={locale === 'en' ? 'Core principles' : '核心理念'}
+>
+  {t.home.values.map((value, index) => {
+    const Icon = icons[index] || HardDrive;
+    return (
+      <article data-reveal>
+        <div class="value-top">
+          <Icon aria-hidden="true" size={21} stroke-width={1.4} />
+          <span class="mono">0{index + 1}</span>
+        </div>
+        <h2>{value.title}</h2>
+        <p>{value.text}</p>
+      </article>
+    );
+  })}
+</section>
+<div class="shell">
+  <section class="editorial-intro section-grid" data-reveal>
+    <div>
+      <span class="eyebrow">{t.home.editorialLabel}</span>
+      <h2 class="display">{t.home.editorialTitle}</h2>
+    </div>
+    <p class="section-intro">{t.home.editorialText}</p>
+  </section>
+  <FeatureRow locale={locale} />
+  <FeatureRow locale={locale} variant="writing" />
+</div>
+<SyncStory locale={locale} />
+<section class="open-source shell section-grid" data-reveal>
+  <div>
+    <span class="eyebrow">{t.home.open.label}</span>
+    <h2 class="display">{t.home.open.title}</h2>
+    <p>{t.home.open.text}</p>
+    <a class="text-link" href={site.repository}>
+      {t.home.open.link}
+      <ArrowUpRight aria-hidden="true" size={16} />
+    </a>
+  </div>
+  <div class="source-sheet">
+    <div class="source-sheet-header mono">
+      <GitBranch aria-hidden="true" size={15} />
+      nextmail-dev / nextmail
+      <span>{locale === 'en' ? 'PUBLIC' : '公开仓库'}</span>
+    </div>
+    <div class="source-glyph">
+      <Code2 aria-hidden="true" size={72} stroke-width={0.8} />
+    </div>
+    <div class="source-stack mono">
+      TAURI 2 <span>×</span> RUST <span>×</span> REACT 19
+    </div>
+    <a href={site.repository} class="source-sheet-bottom">
+      {locale === 'en' ? 'See what’s under the hood' : '看看它是如何构建的'}
+      <ArrowUpRight aria-hidden="true" size={18} />
+    </a>
+  </div>
+</section>
+<DownloadCTA locale={locale} />

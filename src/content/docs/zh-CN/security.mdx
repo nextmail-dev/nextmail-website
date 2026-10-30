@@ -1,0 +1,30 @@
+---
+title: 安全与本地数据
+description: 了解本地保存了什么、凭据如何处理，以及预览版的分发限制。
+locale: zh-CN
+docSlug: security
+order: 4
+source: https://github.com/nextmail-dev/nextmail/blob/main/docs/project.md
+---
+
+## 密码与邮件数据
+
+账户密码保存在**操作系统的安全凭据库**。邮件数据库和下载内容位于你选择的本地数据目录，配置和窗口偏好位于系统应用配置区。
+
+这是数据存放方式的说明，不代表本地邮箱具备端到端加密。请保护设备访问权限，并为重要本地内容做好备份。
+
+## 安全阅读 HTML
+
+NextMail 会在显示前清理 HTML 和 CSS，限制脚本、表单、危险链接和远程内容。远程图片由你决定是否加载，同时尽量保留支持的内嵌图片和熟悉的邮件排版。
+
+下载的附件在打开或保存前会经过检查。检查并不代表附件一定可信，仍需像使用其他邮件客户端一样，谨慎判断来源。
+
+## 更新签名与应用签名
+
+NextMail 使用 Tauri Updater 进行签名更新检查。**更新产物签名与操作系统的应用签名是两回事。**
+
+预览版尚未使用 Windows 正式代码签名。macOS 使用 ad-hoc 签名，尚未通过 Apple 公证。请只从官方 [GitHub Releases](https://github.com/nextmail-dev/nextmail/releases) 获取安装包。
+
+## 反馈问题
+
+可复现的产品问题可以提交至[项目 Issue](https://github.com/nextmail-dev/nextmail/issues)。公开分享日志或截图前，请移除密码、授权码、账户资料和私人邮件内容。

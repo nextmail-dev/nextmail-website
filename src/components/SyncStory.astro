@@ -1,0 +1,49 @@
+---
+import { AlignLeft, MailOpen, Paperclip, ArrowRight } from 'lucide-astro';
+import { href, type Locale } from '../config/site';
+import { useTranslations } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+const icons = [AlignLeft, MailOpen, Paperclip];
+---
+
+<section class="sync-section" id="sync">
+  <div class="shell">
+    <div class="section-grid sync-heading" data-reveal>
+      <div>
+        <span class="eyebrow">{t.home.sync.label}</span>
+        <h2 class="display">{t.home.sync.title}</h2>
+      </div>
+      <p class="section-intro">{t.home.sync.text}</p>
+    </div>
+    <ol class="sync-steps">
+      {t.home.sync.steps.map((step, index) => {
+        const Icon = icons[index] || AlignLeft;
+        return (
+          <li data-reveal>
+            <div class="sync-step-top">
+              <span class="mono">0{index + 1}</span>
+              <span class="micro-label">{step.tag}</span>
+            </div>
+            <div class="sync-symbol">
+              <Icon aria-hidden="true" size={30} stroke-width={1.2} />
+              <span class="sync-line"></span>
+            </div>
+            <h3>{step.title}</h3>
+            <p>{step.text}</p>
+          </li>
+        );
+      })}
+    </ol>
+    <div class="sync-footnote">
+      <p>{t.home.sync.footnote}</p>
+      <a class="text-link" href={href(locale, 'docs/sync')}>
+        {t.home.sync.link}
+        <ArrowRight aria-hidden="true" size={16} />
+      </a>
+    </div>
+  </div>
+</section>

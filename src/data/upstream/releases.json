@@ -1,0 +1,2830 @@
+{
+  "checkedAt": "2026-10-30T04:35:18.386Z",
+  "releases": [
+    {
+      "tag": "v1.1.1",
+      "name": "NextMail v1.1.1",
+      "publishedAt": "2026-10-29T15:18:09Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v1.1.1",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/latest-cn.json",
+          "size": 7403
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/latest.json",
+          "size": 7095
+        },
+        {
+          "name": "NextMail-1.1.1-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail-1.1.1-1.x86_64.rpm",
+          "size": 14811183
+        },
+        {
+          "name": "NextMail-1.1.1-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail-1.1.1-1.x86_64.rpm.sig",
+          "size": 436
+        },
+        {
+          "name": "NextMail_1.1.1_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_aarch64.app.tar.gz",
+          "size": 12510438
+        },
+        {
+          "name": "NextMail_1.1.1_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_aarch64.app.tar.gz.sig",
+          "size": 424
+        },
+        {
+          "name": "NextMail_1.1.1_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_aarch64.dmg",
+          "size": 12377935
+        },
+        {
+          "name": "NextMail_1.1.1_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_amd64.AppImage",
+          "size": 91941368
+        },
+        {
+          "name": "NextMail_1.1.1_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_amd64.AppImage.sig",
+          "size": 440
+        },
+        {
+          "name": "NextMail_1.1.1_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_amd64.deb",
+          "size": 14807756
+        },
+        {
+          "name": "NextMail_1.1.1_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_amd64.deb.sig",
+          "size": 432
+        },
+        {
+          "name": "NextMail_1.1.1_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_x64-setup.exe",
+          "size": 8507886
+        },
+        {
+          "name": "NextMail_1.1.1_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_x64-setup.exe.sig",
+          "size": 436
+        },
+        {
+          "name": "NextMail_1.1.1_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_x64.app.tar.gz",
+          "size": 13099776
+        },
+        {
+          "name": "NextMail_1.1.1_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_x64.app.tar.gz.sig",
+          "size": 424
+        },
+        {
+          "name": "NextMail_1.1.1_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_x64.dmg",
+          "size": 13084996
+        },
+        {
+          "name": "NextMail_1.1.1_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_x64_en-US.msi",
+          "size": 12210176
+        },
+        {
+          "name": "NextMail_1.1.1_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.1/NextMail_1.1.1_x64_en-US.msi.sig",
+          "size": 436
+        }
+      ]
+    },
+    {
+      "tag": "v1.1.0",
+      "name": "NextMail v1.1.0",
+      "publishedAt": "2026-10-29T09:16:07Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v1.1.0",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/latest-cn.json",
+          "size": 7301
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/latest.json",
+          "size": 6993
+        },
+        {
+          "name": "NextMail-1.1.0-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail-1.1.0-1.x86_64.rpm",
+          "size": 14483453
+        },
+        {
+          "name": "NextMail-1.1.0-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail-1.1.0-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_1.1.0_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_aarch64.app.tar.gz",
+          "size": 12290193
+        },
+        {
+          "name": "NextMail_1.1.0_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_1.1.0_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_aarch64.dmg",
+          "size": 12168797
+        },
+        {
+          "name": "NextMail_1.1.0_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_amd64.AppImage",
+          "size": 91441656
+        },
+        {
+          "name": "NextMail_1.1.0_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_1.1.0_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_amd64.deb",
+          "size": 14478464
+        },
+        {
+          "name": "NextMail_1.1.0_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_1.1.0_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_x64-setup.exe",
+          "size": 8371879
+        },
+        {
+          "name": "NextMail_1.1.0_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_1.1.0_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_x64.app.tar.gz",
+          "size": 12855291
+        },
+        {
+          "name": "NextMail_1.1.0_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_1.1.0_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_x64.dmg",
+          "size": 12836723
+        },
+        {
+          "name": "NextMail_1.1.0_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_x64_en-US.msi",
+          "size": 11988992
+        },
+        {
+          "name": "NextMail_1.1.0_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.1.0/NextMail_1.1.0_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v1.0.1",
+      "name": "NextMail v1.0.1",
+      "publishedAt": "2026-10-29T04:51:34Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v1.0.1",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/latest-cn.json",
+          "size": 7331
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/latest.json",
+          "size": 7023
+        },
+        {
+          "name": "NextMail-1.0.1-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail-1.0.1-1.x86_64.rpm",
+          "size": 14119283
+        },
+        {
+          "name": "NextMail-1.0.1-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail-1.0.1-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_1.0.1_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_aarch64.app.tar.gz",
+          "size": 12151536
+        },
+        {
+          "name": "NextMail_1.0.1_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_1.0.1_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_aarch64.dmg",
+          "size": 12031346
+        },
+        {
+          "name": "NextMail_1.0.1_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_amd64.AppImage",
+          "size": 91171320
+        },
+        {
+          "name": "NextMail_1.0.1_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_1.0.1_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_amd64.deb",
+          "size": 14115456
+        },
+        {
+          "name": "NextMail_1.0.1_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_1.0.1_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_x64-setup.exe",
+          "size": 8280250
+        },
+        {
+          "name": "NextMail_1.0.1_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_1.0.1_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_x64.app.tar.gz",
+          "size": 12714471
+        },
+        {
+          "name": "NextMail_1.0.1_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_1.0.1_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_x64.dmg",
+          "size": 12699718
+        },
+        {
+          "name": "NextMail_1.0.1_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_x64_en-US.msi",
+          "size": 11808768
+        },
+        {
+          "name": "NextMail_1.0.1_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.1/NextMail_1.0.1_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v1.0.0",
+      "name": "NextMail v1.0.0",
+      "publishedAt": "2026-10-27T16:34:12Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v1.0.0",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/latest-cn.json",
+          "size": 7898
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/latest.json",
+          "size": 7590
+        },
+        {
+          "name": "NextMail-1.0.0-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail-1.0.0-1.x86_64.rpm",
+          "size": 14104335
+        },
+        {
+          "name": "NextMail-1.0.0-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail-1.0.0-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_1.0.0_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_aarch64.app.tar.gz",
+          "size": 12132010
+        },
+        {
+          "name": "NextMail_1.0.0_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_1.0.0_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_aarch64.dmg",
+          "size": 12011788
+        },
+        {
+          "name": "NextMail_1.0.0_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_amd64.AppImage",
+          "size": 91167224
+        },
+        {
+          "name": "NextMail_1.0.0_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_1.0.0_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_amd64.deb",
+          "size": 14105920
+        },
+        {
+          "name": "NextMail_1.0.0_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_1.0.0_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_x64-setup.exe",
+          "size": 8229524
+        },
+        {
+          "name": "NextMail_1.0.0_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_1.0.0_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_x64.app.tar.gz",
+          "size": 12705238
+        },
+        {
+          "name": "NextMail_1.0.0_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_1.0.0_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_x64.dmg",
+          "size": 12692484
+        },
+        {
+          "name": "NextMail_1.0.0_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_x64_en-US.msi",
+          "size": 11792384
+        },
+        {
+          "name": "NextMail_1.0.0_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v1.0.0/NextMail_1.0.0_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.9.0",
+      "name": "NextMail v0.9.0",
+      "publishedAt": "2026-09-12T14:29:51Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.9.0",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/latest-cn.json",
+          "size": 7122
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/latest.json",
+          "size": 6814
+        },
+        {
+          "name": "NextMail-0.9.0-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail-0.9.0-1.x86_64.rpm",
+          "size": 13965994
+        },
+        {
+          "name": "NextMail-0.9.0-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail-0.9.0-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.9.0_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_aarch64.app.tar.gz",
+          "size": 12043117
+        },
+        {
+          "name": "NextMail_0.9.0_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.9.0_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_aarch64.dmg",
+          "size": 11924154
+        },
+        {
+          "name": "NextMail_0.9.0_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_amd64.AppImage",
+          "size": 90384888
+        },
+        {
+          "name": "NextMail_0.9.0_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.9.0_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_amd64.deb",
+          "size": 13966428
+        },
+        {
+          "name": "NextMail_0.9.0_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.9.0_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_x64-setup.exe",
+          "size": 8237619
+        },
+        {
+          "name": "NextMail_0.9.0_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.9.0_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_x64.app.tar.gz",
+          "size": 12609289
+        },
+        {
+          "name": "NextMail_0.9.0_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.9.0_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_x64.dmg",
+          "size": 12596843
+        },
+        {
+          "name": "NextMail_0.9.0_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_x64_en-US.msi",
+          "size": 11784192
+        },
+        {
+          "name": "NextMail_0.9.0_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.9.0/NextMail_0.9.0_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.8.8",
+      "name": "NextMail v0.8.8",
+      "publishedAt": "2026-09-11T12:05:48Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.8.8",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/latest-cn.json",
+          "size": 7504
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/latest.json",
+          "size": 7196
+        },
+        {
+          "name": "NextMail-0.8.8-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail-0.8.8-1.x86_64.rpm",
+          "size": 13914930
+        },
+        {
+          "name": "NextMail-0.8.8-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail-0.8.8-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.8.8_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_aarch64.app.tar.gz",
+          "size": 12031277
+        },
+        {
+          "name": "NextMail_0.8.8_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.8_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_aarch64.dmg",
+          "size": 11919091
+        },
+        {
+          "name": "NextMail_0.8.8_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_amd64.AppImage",
+          "size": 90360312
+        },
+        {
+          "name": "NextMail_0.8.8_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.8_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_amd64.deb",
+          "size": 13915816
+        },
+        {
+          "name": "NextMail_0.8.8_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.8.8_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_x64-setup.exe",
+          "size": 8206721
+        },
+        {
+          "name": "NextMail_0.8.8_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.8_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_x64.app.tar.gz",
+          "size": 12598901
+        },
+        {
+          "name": "NextMail_0.8.8_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.8_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_x64.dmg",
+          "size": 12583463
+        },
+        {
+          "name": "NextMail_0.8.8_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_x64_en-US.msi",
+          "size": 11755520
+        },
+        {
+          "name": "NextMail_0.8.8_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.8/NextMail_0.8.8_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.8.7",
+      "name": "NextMail v0.8.7",
+      "publishedAt": "2026-09-10T17:00:33Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.8.7",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/latest-cn.json",
+          "size": 7793
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/latest.json",
+          "size": 7485
+        },
+        {
+          "name": "NextMail-0.8.7-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail-0.8.7-1.x86_64.rpm",
+          "size": 13896166
+        },
+        {
+          "name": "NextMail-0.8.7-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail-0.8.7-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.8.7_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_aarch64.app.tar.gz",
+          "size": 11961820
+        },
+        {
+          "name": "NextMail_0.8.7_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.7_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_aarch64.dmg",
+          "size": 11852543
+        },
+        {
+          "name": "NextMail_0.8.7_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_amd64.AppImage",
+          "size": 90331640
+        },
+        {
+          "name": "NextMail_0.8.7_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.7_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_amd64.deb",
+          "size": 13897328
+        },
+        {
+          "name": "NextMail_0.8.7_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.8.7_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_x64-setup.exe",
+          "size": 8173052
+        },
+        {
+          "name": "NextMail_0.8.7_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.7_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_x64.app.tar.gz",
+          "size": 12541134
+        },
+        {
+          "name": "NextMail_0.8.7_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.7_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_x64.dmg",
+          "size": 12534395
+        },
+        {
+          "name": "NextMail_0.8.7_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_x64_en-US.msi",
+          "size": 11702272
+        },
+        {
+          "name": "NextMail_0.8.7_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.7/NextMail_0.8.7_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.8.6",
+      "name": "NextMail v0.8.6",
+      "publishedAt": "2026-09-08T04:50:55Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.8.6",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/latest-cn.json",
+          "size": 7439
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/latest.json",
+          "size": 7131
+        },
+        {
+          "name": "NextMail-0.8.6-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail-0.8.6-1.x86_64.rpm",
+          "size": 13829124
+        },
+        {
+          "name": "NextMail-0.8.6-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail-0.8.6-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.8.6_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_aarch64.app.tar.gz",
+          "size": 11893391
+        },
+        {
+          "name": "NextMail_0.8.6_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.6_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_aarch64.dmg",
+          "size": 11786320
+        },
+        {
+          "name": "NextMail_0.8.6_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_amd64.AppImage",
+          "size": 90270200
+        },
+        {
+          "name": "NextMail_0.8.6_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.6_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_amd64.deb",
+          "size": 13828272
+        },
+        {
+          "name": "NextMail_0.8.6_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.8.6_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_x64-setup.exe",
+          "size": 8098475
+        },
+        {
+          "name": "NextMail_0.8.6_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.6_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_x64.app.tar.gz",
+          "size": 12464986
+        },
+        {
+          "name": "NextMail_0.8.6_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.6_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_x64.dmg",
+          "size": 12459493
+        },
+        {
+          "name": "NextMail_0.8.6_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_x64_en-US.msi",
+          "size": 11636736
+        },
+        {
+          "name": "NextMail_0.8.6_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.6/NextMail_0.8.6_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.8.5",
+      "name": "NextMail v0.8.5",
+      "publishedAt": "2026-09-06T00:36:50Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.8.5",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/latest-cn.json",
+          "size": 7301
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/latest.json",
+          "size": 6993
+        },
+        {
+          "name": "NextMail-0.8.5-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail-0.8.5-1.x86_64.rpm",
+          "size": 13760274
+        },
+        {
+          "name": "NextMail-0.8.5-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail-0.8.5-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.8.5_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_aarch64.app.tar.gz",
+          "size": 11847586
+        },
+        {
+          "name": "NextMail_0.8.5_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.5_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_aarch64.dmg",
+          "size": 11734219
+        },
+        {
+          "name": "NextMail_0.8.5_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_amd64.AppImage",
+          "size": 90221048
+        },
+        {
+          "name": "NextMail_0.8.5_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.5_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_amd64.deb",
+          "size": 13759766
+        },
+        {
+          "name": "NextMail_0.8.5_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.8.5_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_x64-setup.exe",
+          "size": 8111006
+        },
+        {
+          "name": "NextMail_0.8.5_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.5_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_x64.app.tar.gz",
+          "size": 12371925
+        },
+        {
+          "name": "NextMail_0.8.5_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.5_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_x64.dmg",
+          "size": 12371940
+        },
+        {
+          "name": "NextMail_0.8.5_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_x64_en-US.msi",
+          "size": 11603968
+        },
+        {
+          "name": "NextMail_0.8.5_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.5/NextMail_0.8.5_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.8.4",
+      "name": "NextMail v0.8.4",
+      "publishedAt": "2026-09-02T09:14:17Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.8.4",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/latest-cn.json",
+          "size": 7104
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/latest.json",
+          "size": 6796
+        },
+        {
+          "name": "NextMail-0.8.4-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail-0.8.4-1.x86_64.rpm",
+          "size": 13761700
+        },
+        {
+          "name": "NextMail-0.8.4-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail-0.8.4-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.8.4_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_aarch64.app.tar.gz",
+          "size": 11842750
+        },
+        {
+          "name": "NextMail_0.8.4_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.4_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_aarch64.dmg",
+          "size": 11730984
+        },
+        {
+          "name": "NextMail_0.8.4_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_amd64.AppImage",
+          "size": 90225144
+        },
+        {
+          "name": "NextMail_0.8.4_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.4_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_amd64.deb",
+          "size": 13762142
+        },
+        {
+          "name": "NextMail_0.8.4_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.8.4_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_x64-setup.exe",
+          "size": 8109635
+        },
+        {
+          "name": "NextMail_0.8.4_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.4_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_x64.app.tar.gz",
+          "size": 12369888
+        },
+        {
+          "name": "NextMail_0.8.4_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.4_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_x64.dmg",
+          "size": 12370490
+        },
+        {
+          "name": "NextMail_0.8.4_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_x64_en-US.msi",
+          "size": 11599872
+        },
+        {
+          "name": "NextMail_0.8.4_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.4/NextMail_0.8.4_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.8.3",
+      "name": "NextMail v0.8.3",
+      "publishedAt": "2026-08-27T06:22:37Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.8.3",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/latest-cn.json",
+          "size": 7082
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/latest.json",
+          "size": 6774
+        },
+        {
+          "name": "NextMail-0.8.3-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail-0.8.3-1.x86_64.rpm",
+          "size": 13748175
+        },
+        {
+          "name": "NextMail-0.8.3-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail-0.8.3-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.8.3_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_aarch64.app.tar.gz",
+          "size": 11824789
+        },
+        {
+          "name": "NextMail_0.8.3_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.3_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_aarch64.dmg",
+          "size": 11717586
+        },
+        {
+          "name": "NextMail_0.8.3_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_amd64.AppImage",
+          "size": 90192376
+        },
+        {
+          "name": "NextMail_0.8.3_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.3_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_amd64.deb",
+          "size": 13748540
+        },
+        {
+          "name": "NextMail_0.8.3_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.8.3_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_x64-setup.exe",
+          "size": 8084043
+        },
+        {
+          "name": "NextMail_0.8.3_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.3_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_x64.app.tar.gz",
+          "size": 12368445
+        },
+        {
+          "name": "NextMail_0.8.3_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.3_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_x64.dmg",
+          "size": 12369805
+        },
+        {
+          "name": "NextMail_0.8.3_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_x64_en-US.msi",
+          "size": 11579392
+        },
+        {
+          "name": "NextMail_0.8.3_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.3/NextMail_0.8.3_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.8.2",
+      "name": "NextMail v0.8.2",
+      "publishedAt": "2026-08-25T07:14:05Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.8.2",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/latest-cn.json",
+          "size": 7083
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/latest.json",
+          "size": 6775
+        },
+        {
+          "name": "NextMail-0.8.2-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail-0.8.2-1.x86_64.rpm",
+          "size": 13760030
+        },
+        {
+          "name": "NextMail-0.8.2-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail-0.8.2-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.8.2_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_aarch64.app.tar.gz",
+          "size": 11824305
+        },
+        {
+          "name": "NextMail_0.8.2_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.2_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_aarch64.dmg",
+          "size": 11711749
+        },
+        {
+          "name": "NextMail_0.8.2_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_amd64.AppImage",
+          "size": 90180088
+        },
+        {
+          "name": "NextMail_0.8.2_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.2_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_amd64.deb",
+          "size": 13760820
+        },
+        {
+          "name": "NextMail_0.8.2_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.8.2_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_x64-setup.exe",
+          "size": 8075874
+        },
+        {
+          "name": "NextMail_0.8.2_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.2_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_x64.app.tar.gz",
+          "size": 12368060
+        },
+        {
+          "name": "NextMail_0.8.2_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.2_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_x64.dmg",
+          "size": 12371604
+        },
+        {
+          "name": "NextMail_0.8.2_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_x64_en-US.msi",
+          "size": 11575296
+        },
+        {
+          "name": "NextMail_0.8.2_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.2/NextMail_0.8.2_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.8.1",
+      "name": "NextMail v0.8.1",
+      "publishedAt": "2026-08-23T05:28:24Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.8.1",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/latest-cn.json",
+          "size": 7335
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/latest.json",
+          "size": 7027
+        },
+        {
+          "name": "NextMail-0.8.1-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail-0.8.1-1.x86_64.rpm",
+          "size": 13751777
+        },
+        {
+          "name": "NextMail-0.8.1-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail-0.8.1-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.8.1_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_aarch64.app.tar.gz",
+          "size": 11827933
+        },
+        {
+          "name": "NextMail_0.8.1_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.1_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_aarch64.dmg",
+          "size": 11719130
+        },
+        {
+          "name": "NextMail_0.8.1_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_amd64.AppImage",
+          "size": 90204664
+        },
+        {
+          "name": "NextMail_0.8.1_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.1_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_amd64.deb",
+          "size": 13752332
+        },
+        {
+          "name": "NextMail_0.8.1_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.8.1_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_x64-setup.exe",
+          "size": 8074006
+        },
+        {
+          "name": "NextMail_0.8.1_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.1_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_x64.app.tar.gz",
+          "size": 12371838
+        },
+        {
+          "name": "NextMail_0.8.1_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.1_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_x64.dmg",
+          "size": 12373806
+        },
+        {
+          "name": "NextMail_0.8.1_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_x64_en-US.msi",
+          "size": 11558912
+        },
+        {
+          "name": "NextMail_0.8.1_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.1/NextMail_0.8.1_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.8.0",
+      "name": "NextMail v0.8.0",
+      "publishedAt": "2026-08-21T07:16:34Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.8.0",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/latest-cn.json",
+          "size": 8228
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/latest.json",
+          "size": 7920
+        },
+        {
+          "name": "NextMail-0.8.0-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail-0.8.0-1.x86_64.rpm",
+          "size": 13742232
+        },
+        {
+          "name": "NextMail-0.8.0-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail-0.8.0-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.8.0_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_aarch64.app.tar.gz",
+          "size": 11820523
+        },
+        {
+          "name": "NextMail_0.8.0_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.0_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_aarch64.dmg",
+          "size": 11711341
+        },
+        {
+          "name": "NextMail_0.8.0_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_amd64.AppImage",
+          "size": 90192376
+        },
+        {
+          "name": "NextMail_0.8.0_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.0_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_amd64.deb",
+          "size": 13743066
+        },
+        {
+          "name": "NextMail_0.8.0_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.8.0_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_x64-setup.exe",
+          "size": 8058927
+        },
+        {
+          "name": "NextMail_0.8.0_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.8.0_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_x64.app.tar.gz",
+          "size": 12360854
+        },
+        {
+          "name": "NextMail_0.8.0_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.8.0_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_x64.dmg",
+          "size": 12358608
+        },
+        {
+          "name": "NextMail_0.8.0_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_x64_en-US.msi",
+          "size": 11530240
+        },
+        {
+          "name": "NextMail_0.8.0_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.8.0/NextMail_0.8.0_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.7.1",
+      "name": "NextMail v0.7.1",
+      "publishedAt": "2026-08-16T02:22:07Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.7.1",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/latest-cn.json",
+          "size": 7450
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/latest.json",
+          "size": 7142
+        },
+        {
+          "name": "NextMail-0.7.1-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail-0.7.1-1.x86_64.rpm",
+          "size": 13731722
+        },
+        {
+          "name": "NextMail-0.7.1-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail-0.7.1-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.7.1_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_aarch64.app.tar.gz",
+          "size": 11810759
+        },
+        {
+          "name": "NextMail_0.7.1_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.7.1_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_aarch64.dmg",
+          "size": 11697390
+        },
+        {
+          "name": "NextMail_0.7.1_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_amd64.AppImage",
+          "size": 90175992
+        },
+        {
+          "name": "NextMail_0.7.1_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.7.1_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_amd64.deb",
+          "size": 13730772
+        },
+        {
+          "name": "NextMail_0.7.1_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.7.1_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_x64-setup.exe",
+          "size": 8073789
+        },
+        {
+          "name": "NextMail_0.7.1_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.7.1_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_x64.app.tar.gz",
+          "size": 12375634
+        },
+        {
+          "name": "NextMail_0.7.1_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.7.1_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_x64.dmg",
+          "size": 12369039
+        },
+        {
+          "name": "NextMail_0.7.1_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_x64_en-US.msi",
+          "size": 11579392
+        },
+        {
+          "name": "NextMail_0.7.1_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.1/NextMail_0.7.1_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.7.0",
+      "name": "NextMail v0.7.0",
+      "publishedAt": "2026-08-15T09:55:42Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.7.0",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/latest-cn.json",
+          "size": 7980
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/latest.json",
+          "size": 7672
+        },
+        {
+          "name": "NextMail-0.7.0-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail-0.7.0-1.x86_64.rpm",
+          "size": 13726291
+        },
+        {
+          "name": "NextMail-0.7.0-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail-0.7.0-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.7.0_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_aarch64.app.tar.gz",
+          "size": 11805410
+        },
+        {
+          "name": "NextMail_0.7.0_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.7.0_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_aarch64.dmg",
+          "size": 11693935
+        },
+        {
+          "name": "NextMail_0.7.0_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_amd64.AppImage",
+          "size": 90167800
+        },
+        {
+          "name": "NextMail_0.7.0_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.7.0_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_amd64.deb",
+          "size": 13726592
+        },
+        {
+          "name": "NextMail_0.7.0_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.7.0_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_x64-setup.exe",
+          "size": 8071212
+        },
+        {
+          "name": "NextMail_0.7.0_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.7.0_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_x64.app.tar.gz",
+          "size": 12374753
+        },
+        {
+          "name": "NextMail_0.7.0_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.7.0_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_x64.dmg",
+          "size": 12368092
+        },
+        {
+          "name": "NextMail_0.7.0_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_x64_en-US.msi",
+          "size": 11575296
+        },
+        {
+          "name": "NextMail_0.7.0_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.7.0/NextMail_0.7.0_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.6.7",
+      "name": "NextMail v0.6.7",
+      "publishedAt": "2026-08-15T08:29:51Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.6.7",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/latest-cn.json",
+          "size": 7272
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/latest.json",
+          "size": 6964
+        },
+        {
+          "name": "NextMail-0.6.7-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail-0.6.7-1.x86_64.rpm",
+          "size": 13610146
+        },
+        {
+          "name": "NextMail-0.6.7-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail-0.6.7-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.6.7_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_aarch64.app.tar.gz",
+          "size": 11748993
+        },
+        {
+          "name": "NextMail_0.6.7_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.6.7_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_aarch64.dmg",
+          "size": 11635991
+        },
+        {
+          "name": "NextMail_0.6.7_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_amd64.AppImage",
+          "size": 90061304
+        },
+        {
+          "name": "NextMail_0.6.7_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.6.7_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_amd64.deb",
+          "size": 13610648
+        },
+        {
+          "name": "NextMail_0.6.7_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.6.7_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_x64-setup.exe",
+          "size": 8014936
+        },
+        {
+          "name": "NextMail_0.6.7_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.6.7_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_x64.app.tar.gz",
+          "size": 12298843
+        },
+        {
+          "name": "NextMail_0.6.7_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.6.7_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_x64.dmg",
+          "size": 12292223
+        },
+        {
+          "name": "NextMail_0.6.7_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_x64_en-US.msi",
+          "size": 11526144
+        },
+        {
+          "name": "NextMail_0.6.7_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.7/NextMail_0.6.7_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.6.6",
+      "name": "NextMail v0.6.6",
+      "publishedAt": "2026-08-15T05:45:30Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.6.6",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/latest-cn.json",
+          "size": 7253
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/latest.json",
+          "size": 6945
+        },
+        {
+          "name": "NextMail-0.6.6-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail-0.6.6-1.x86_64.rpm",
+          "size": 13584070
+        },
+        {
+          "name": "NextMail-0.6.6-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail-0.6.6-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.6.6_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_aarch64.app.tar.gz",
+          "size": 11751237
+        },
+        {
+          "name": "NextMail_0.6.6_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.6.6_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_aarch64.dmg",
+          "size": 11643077
+        },
+        {
+          "name": "NextMail_0.6.6_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_amd64.AppImage",
+          "size": 90053112
+        },
+        {
+          "name": "NextMail_0.6.6_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.6.6_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_amd64.deb",
+          "size": 13584996
+        },
+        {
+          "name": "NextMail_0.6.6_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.6.6_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_x64-setup.exe",
+          "size": 8010493
+        },
+        {
+          "name": "NextMail_0.6.6_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.6.6_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_x64.app.tar.gz",
+          "size": 12269874
+        },
+        {
+          "name": "NextMail_0.6.6_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.6.6_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_x64.dmg",
+          "size": 12263236
+        },
+        {
+          "name": "NextMail_0.6.6_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_x64_en-US.msi",
+          "size": 11509760
+        },
+        {
+          "name": "NextMail_0.6.6_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.6/NextMail_0.6.6_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.6.5",
+      "name": "NextMail v0.6.5",
+      "publishedAt": "2026-08-14T16:56:20Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.6.5",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/latest-cn.json",
+          "size": 7722
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/latest.json",
+          "size": 7414
+        },
+        {
+          "name": "NextMail-0.6.5-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail-0.6.5-1.x86_64.rpm",
+          "size": 13583979
+        },
+        {
+          "name": "NextMail-0.6.5-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail-0.6.5-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.6.5_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_aarch64.app.tar.gz",
+          "size": 11750334
+        },
+        {
+          "name": "NextMail_0.6.5_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.6.5_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_aarch64.dmg",
+          "size": 11642515
+        },
+        {
+          "name": "NextMail_0.6.5_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_amd64.AppImage",
+          "size": 90069496
+        },
+        {
+          "name": "NextMail_0.6.5_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.6.5_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_amd64.deb",
+          "size": 13584784
+        },
+        {
+          "name": "NextMail_0.6.5_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.6.5_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_x64-setup.exe",
+          "size": 8010944
+        },
+        {
+          "name": "NextMail_0.6.5_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.6.5_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_x64.app.tar.gz",
+          "size": 12269839
+        },
+        {
+          "name": "NextMail_0.6.5_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.6.5_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_x64.dmg",
+          "size": 12263232
+        },
+        {
+          "name": "NextMail_0.6.5_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_x64_en-US.msi",
+          "size": 11509760
+        },
+        {
+          "name": "NextMail_0.6.5_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.5/NextMail_0.6.5_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.6.0",
+      "name": "NextMail v0.6.0",
+      "publishedAt": "2026-08-14T05:57:30Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.6.0",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/latest-cn.json",
+          "size": 7476
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/latest.json",
+          "size": 7168
+        },
+        {
+          "name": "NextMail-0.6.0-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail-0.6.0-1.x86_64.rpm",
+          "size": 13560274
+        },
+        {
+          "name": "NextMail-0.6.0-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail-0.6.0-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.6.0_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_aarch64.app.tar.gz",
+          "size": 11712142
+        },
+        {
+          "name": "NextMail_0.6.0_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.6.0_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_aarch64.dmg",
+          "size": 11603282
+        },
+        {
+          "name": "NextMail_0.6.0_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_amd64.AppImage",
+          "size": 90024440
+        },
+        {
+          "name": "NextMail_0.6.0_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.6.0_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_amd64.deb",
+          "size": 13560334
+        },
+        {
+          "name": "NextMail_0.6.0_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.6.0_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_x64-setup.exe",
+          "size": 7996427
+        },
+        {
+          "name": "NextMail_0.6.0_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.6.0_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_x64.app.tar.gz",
+          "size": 12258430
+        },
+        {
+          "name": "NextMail_0.6.0_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.6.0_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_x64.dmg",
+          "size": 12252976
+        },
+        {
+          "name": "NextMail_0.6.0_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_x64_en-US.msi",
+          "size": 11505664
+        },
+        {
+          "name": "NextMail_0.6.0_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.6.0/NextMail_0.6.0_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.5.0",
+      "name": "NextMail v0.5.0",
+      "publishedAt": "2026-08-14T03:55:35Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.5.0",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/latest-cn.json",
+          "size": 7444
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/latest.json",
+          "size": 7136
+        },
+        {
+          "name": "NextMail-0.5.0-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail-0.5.0-1.x86_64.rpm",
+          "size": 13559081
+        },
+        {
+          "name": "NextMail-0.5.0-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail-0.5.0-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.5.0_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_aarch64.app.tar.gz",
+          "size": 11712005
+        },
+        {
+          "name": "NextMail_0.5.0_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.5.0_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_aarch64.dmg",
+          "size": 11605648
+        },
+        {
+          "name": "NextMail_0.5.0_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_amd64.AppImage",
+          "size": 90024440
+        },
+        {
+          "name": "NextMail_0.5.0_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.5.0_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_amd64.deb",
+          "size": 13560254
+        },
+        {
+          "name": "NextMail_0.5.0_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.5.0_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_x64-setup.exe",
+          "size": 8000320
+        },
+        {
+          "name": "NextMail_0.5.0_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.5.0_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_x64.app.tar.gz",
+          "size": 12289071
+        },
+        {
+          "name": "NextMail_0.5.0_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.5.0_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_x64.dmg",
+          "size": 12283089
+        },
+        {
+          "name": "NextMail_0.5.0_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_x64_en-US.msi",
+          "size": 11481088
+        },
+        {
+          "name": "NextMail_0.5.0_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.5.0/NextMail_0.5.0_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.4.1",
+      "name": "NextMail v0.4.1",
+      "publishedAt": "2026-08-13T14:19:07Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.4.1",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/latest-cn.json",
+          "size": 7513
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/latest.json",
+          "size": 7205
+        },
+        {
+          "name": "NextMail-0.4.1-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail-0.4.1-1.x86_64.rpm",
+          "size": 13520628
+        },
+        {
+          "name": "NextMail-0.4.1-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail-0.4.1-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.4.1_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_aarch64.app.tar.gz",
+          "size": 11686180
+        },
+        {
+          "name": "NextMail_0.4.1_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.4.1_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_aarch64.dmg",
+          "size": 11579885
+        },
+        {
+          "name": "NextMail_0.4.1_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_amd64.AppImage",
+          "size": 90016248
+        },
+        {
+          "name": "NextMail_0.4.1_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.4.1_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_amd64.deb",
+          "size": 13521348
+        },
+        {
+          "name": "NextMail_0.4.1_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.4.1_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_x64-setup.exe",
+          "size": 7977928
+        },
+        {
+          "name": "NextMail_0.4.1_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.4.1_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_x64.app.tar.gz",
+          "size": 12221272
+        },
+        {
+          "name": "NextMail_0.4.1_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.4.1_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_x64.dmg",
+          "size": 12219853
+        },
+        {
+          "name": "NextMail_0.4.1_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_x64_en-US.msi",
+          "size": 11456512
+        },
+        {
+          "name": "NextMail_0.4.1_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.1/NextMail_0.4.1_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.4.0",
+      "name": "NextMail v0.4.0",
+      "publishedAt": "2026-08-11T16:00:48Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.4.0",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/latest-cn.json",
+          "size": 7706
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/latest.json",
+          "size": 7398
+        },
+        {
+          "name": "NextMail-0.4.0-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail-0.4.0-1.x86_64.rpm",
+          "size": 13503622
+        },
+        {
+          "name": "NextMail-0.4.0-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail-0.4.0-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.4.0_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_aarch64.app.tar.gz",
+          "size": 11696738
+        },
+        {
+          "name": "NextMail_0.4.0_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.4.0_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_aarch64.dmg",
+          "size": 11588644
+        },
+        {
+          "name": "NextMail_0.4.0_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_amd64.AppImage",
+          "size": 89991672
+        },
+        {
+          "name": "NextMail_0.4.0_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.4.0_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_amd64.deb",
+          "size": 13502518
+        },
+        {
+          "name": "NextMail_0.4.0_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.4.0_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_x64-setup.exe",
+          "size": 7981775
+        },
+        {
+          "name": "NextMail_0.4.0_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.4.0_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_x64.app.tar.gz",
+          "size": 12217422
+        },
+        {
+          "name": "NextMail_0.4.0_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.4.0_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_x64.dmg",
+          "size": 12215876
+        },
+        {
+          "name": "NextMail_0.4.0_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_x64_en-US.msi",
+          "size": 11456512
+        },
+        {
+          "name": "NextMail_0.4.0_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.4.0/NextMail_0.4.0_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.3.1",
+      "name": "NextMail v0.3.1",
+      "publishedAt": "2026-08-11T04:27:32Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.3.1",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/latest-cn.json",
+          "size": 7349
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/latest.json",
+          "size": 7041
+        },
+        {
+          "name": "NextMail-0.3.1-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail-0.3.1-1.x86_64.rpm",
+          "size": 13499931
+        },
+        {
+          "name": "NextMail-0.3.1-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail-0.3.1-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.3.1_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_aarch64.app.tar.gz",
+          "size": 11682502
+        },
+        {
+          "name": "NextMail_0.3.1_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.3.1_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_aarch64.dmg",
+          "size": 11572887
+        },
+        {
+          "name": "NextMail_0.3.1_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_amd64.AppImage",
+          "size": 90012152
+        },
+        {
+          "name": "NextMail_0.3.1_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.3.1_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_amd64.deb",
+          "size": 13500746
+        },
+        {
+          "name": "NextMail_0.3.1_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.3.1_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_x64-setup.exe",
+          "size": 7989612
+        },
+        {
+          "name": "NextMail_0.3.1_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.3.1_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_x64.app.tar.gz",
+          "size": 12205672
+        },
+        {
+          "name": "NextMail_0.3.1_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.3.1_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_x64.dmg",
+          "size": 12201781
+        },
+        {
+          "name": "NextMail_0.3.1_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_x64_en-US.msi",
+          "size": 11444224
+        },
+        {
+          "name": "NextMail_0.3.1_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.1/NextMail_0.3.1_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.3.0",
+      "name": "NextMail v0.3.0",
+      "publishedAt": "2026-08-09T13:54:46Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.3.0",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/latest-cn.json",
+          "size": 7548
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/latest.json",
+          "size": 7240
+        },
+        {
+          "name": "NextMail-0.3.0-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail-0.3.0-1.x86_64.rpm",
+          "size": 13499831
+        },
+        {
+          "name": "NextMail-0.3.0-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail-0.3.0-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.3.0_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_aarch64.app.tar.gz",
+          "size": 11681416
+        },
+        {
+          "name": "NextMail_0.3.0_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.3.0_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_aarch64.dmg",
+          "size": 11571575
+        },
+        {
+          "name": "NextMail_0.3.0_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_amd64.AppImage",
+          "size": 89999864
+        },
+        {
+          "name": "NextMail_0.3.0_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.3.0_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_amd64.deb",
+          "size": 13500568
+        },
+        {
+          "name": "NextMail_0.3.0_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.3.0_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_x64-setup.exe",
+          "size": 7992776
+        },
+        {
+          "name": "NextMail_0.3.0_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.3.0_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_x64.app.tar.gz",
+          "size": 12204469
+        },
+        {
+          "name": "NextMail_0.3.0_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.3.0_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_x64.dmg",
+          "size": 12199682
+        },
+        {
+          "name": "NextMail_0.3.0_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_x64_en-US.msi",
+          "size": 11444224
+        },
+        {
+          "name": "NextMail_0.3.0_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.3.0/NextMail_0.3.0_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.2.3",
+      "name": "NextMail v0.2.3",
+      "publishedAt": "2026-08-09T05:42:12Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.2.3",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/latest-cn.json",
+          "size": 7026
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/latest.json",
+          "size": 6718
+        },
+        {
+          "name": "NextMail-0.2.3-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail-0.2.3-1.x86_64.rpm",
+          "size": 13508201
+        },
+        {
+          "name": "NextMail-0.2.3-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail-0.2.3-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.2.3_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_aarch64.app.tar.gz",
+          "size": 12018184
+        },
+        {
+          "name": "NextMail_0.2.3_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.2.3_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_aarch64.dmg",
+          "size": 12296333
+        },
+        {
+          "name": "NextMail_0.2.3_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_amd64.AppImage",
+          "size": 89983480
+        },
+        {
+          "name": "NextMail_0.2.3_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.2.3_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_amd64.deb",
+          "size": 13509166
+        },
+        {
+          "name": "NextMail_0.2.3_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.2.3_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_x64-setup.exe",
+          "size": 7979127
+        },
+        {
+          "name": "NextMail_0.2.3_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.2.3_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_x64.app.tar.gz",
+          "size": 12539363
+        },
+        {
+          "name": "NextMail_0.2.3_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.2.3_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_x64.dmg",
+          "size": 12937566
+        },
+        {
+          "name": "NextMail_0.2.3_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_x64_en-US.msi",
+          "size": 11485184
+        },
+        {
+          "name": "NextMail_0.2.3_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.3/NextMail_0.2.3_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.2.2",
+      "name": "NextMail v0.2.2",
+      "publishedAt": "2026-08-09T05:29:40Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.2.2",
+      "assets": [
+        {
+          "name": "latest-cn.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/latest-cn.json",
+          "size": 7159
+        },
+        {
+          "name": "latest.json",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/latest.json",
+          "size": 7158
+        },
+        {
+          "name": "NextMail-0.2.2-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail-0.2.2-1.x86_64.rpm",
+          "size": 13504700
+        },
+        {
+          "name": "NextMail-0.2.2-1.x86_64.rpm.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail-0.2.2-1.x86_64.rpm.sig",
+          "size": 416
+        },
+        {
+          "name": "NextMail_0.2.2_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_aarch64.app.tar.gz",
+          "size": 12006548
+        },
+        {
+          "name": "NextMail_0.2.2_aarch64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_aarch64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.2.2_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_aarch64.dmg",
+          "size": 12285589
+        },
+        {
+          "name": "NextMail_0.2.2_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_amd64.AppImage",
+          "size": 89999864
+        },
+        {
+          "name": "NextMail_0.2.2_amd64.AppImage.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_amd64.AppImage.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.2.2_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_amd64.deb",
+          "size": 13505464
+        },
+        {
+          "name": "NextMail_0.2.2_amd64.deb.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_amd64.deb.sig",
+          "size": 412
+        },
+        {
+          "name": "NextMail_0.2.2_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_x64-setup.exe",
+          "size": 7944445
+        },
+        {
+          "name": "NextMail_0.2.2_x64-setup.exe.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_x64-setup.exe.sig",
+          "size": 420
+        },
+        {
+          "name": "NextMail_0.2.2_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_x64.app.tar.gz",
+          "size": 12550705
+        },
+        {
+          "name": "NextMail_0.2.2_x64.app.tar.gz.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_x64.app.tar.gz.sig",
+          "size": 408
+        },
+        {
+          "name": "NextMail_0.2.2_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_x64.dmg",
+          "size": 12947210
+        },
+        {
+          "name": "NextMail_0.2.2_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_x64_en-US.msi",
+          "size": 11468800
+        },
+        {
+          "name": "NextMail_0.2.2_x64_en-US.msi.sig",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.2/NextMail_0.2.2_x64_en-US.msi.sig",
+          "size": 420
+        }
+      ]
+    },
+    {
+      "tag": "v0.2.1",
+      "name": "NextMail v0.2.1",
+      "publishedAt": "2026-08-09T03:29:09Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.2.1",
+      "assets": [
+        {
+          "name": "NextMail-0.2.1-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.1/NextMail-0.2.1-1.x86_64.rpm",
+          "size": 12608516
+        },
+        {
+          "name": "NextMail_0.2.1_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.1/NextMail_0.2.1_aarch64.app.tar.gz",
+          "size": 10860567
+        },
+        {
+          "name": "NextMail_0.2.1_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.1/NextMail_0.2.1_aarch64.dmg",
+          "size": 11517754
+        },
+        {
+          "name": "NextMail_0.2.1_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.1/NextMail_0.2.1_amd64.AppImage",
+          "size": 89119224
+        },
+        {
+          "name": "NextMail_0.2.1_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.1/NextMail_0.2.1_amd64.deb",
+          "size": 12609394
+        },
+        {
+          "name": "NextMail_0.2.1_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.1/NextMail_0.2.1_x64-setup.exe",
+          "size": 7566598
+        },
+        {
+          "name": "NextMail_0.2.1_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.1/NextMail_0.2.1_x64.app.tar.gz",
+          "size": 11473306
+        },
+        {
+          "name": "NextMail_0.2.1_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.1/NextMail_0.2.1_x64.dmg",
+          "size": 12107447
+        },
+        {
+          "name": "NextMail_0.2.1_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.1/NextMail_0.2.1_x64_en-US.msi",
+          "size": 10735616
+        }
+      ]
+    },
+    {
+      "tag": "v0.2.0",
+      "name": "NextMail v0.2.0",
+      "publishedAt": "2026-08-04T13:59:15Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.2.0",
+      "assets": [
+        {
+          "name": "NextMail-0.2.0-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.0/NextMail-0.2.0-1.x86_64.rpm",
+          "size": 12585398
+        },
+        {
+          "name": "NextMail_0.2.0_aarch64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.0/NextMail_0.2.0_aarch64.app.tar.gz",
+          "size": 10844299
+        },
+        {
+          "name": "NextMail_0.2.0_aarch64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.0/NextMail_0.2.0_aarch64.dmg",
+          "size": 11501230
+        },
+        {
+          "name": "NextMail_0.2.0_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.0/NextMail_0.2.0_amd64.AppImage",
+          "size": 89090552
+        },
+        {
+          "name": "NextMail_0.2.0_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.0/NextMail_0.2.0_amd64.deb",
+          "size": 12586234
+        },
+        {
+          "name": "NextMail_0.2.0_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.0/NextMail_0.2.0_x64-setup.exe",
+          "size": 7563241
+        },
+        {
+          "name": "NextMail_0.2.0_x64.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.0/NextMail_0.2.0_x64.app.tar.gz",
+          "size": 11449978
+        },
+        {
+          "name": "NextMail_0.2.0_x64.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.0/NextMail_0.2.0_x64.dmg",
+          "size": 12090971
+        },
+        {
+          "name": "NextMail_0.2.0_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.2.0/NextMail_0.2.0_x64_en-US.msi",
+          "size": 10727424
+        }
+      ]
+    },
+    {
+      "tag": "v0.1.0",
+      "name": "NextMail v0.1.0",
+      "publishedAt": "2026-08-01T10:39:14Z",
+      "prerelease": false,
+      "url": "https://github.com/nextmail-dev/nextmail/releases/tag/v0.1.0",
+      "assets": [
+        {
+          "name": "nextmail-0.1.0-1.x86_64.rpm",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.1.0/nextmail-0.1.0-1.x86_64.rpm",
+          "size": 12461831
+        },
+        {
+          "name": "nextmail_0.1.0_amd64.AppImage",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.1.0/nextmail_0.1.0_amd64.AppImage",
+          "size": 88979960
+        },
+        {
+          "name": "nextmail_0.1.0_amd64.deb",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.1.0/nextmail_0.1.0_amd64.deb",
+          "size": 12462162
+        },
+        {
+          "name": "nextmail_0.1.0_universal.app.tar.gz",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.1.0/nextmail_0.1.0_universal.app.tar.gz",
+          "size": 21240254
+        },
+        {
+          "name": "nextmail_0.1.0_universal.dmg",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.1.0/nextmail_0.1.0_universal.dmg",
+          "size": 21851239
+        },
+        {
+          "name": "nextmail_0.1.0_x64-setup.exe",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.1.0/nextmail_0.1.0_x64-setup.exe",
+          "size": 7445394
+        },
+        {
+          "name": "nextmail_0.1.0_x64_en-US.msi",
+          "url": "https://github.com/nextmail-dev/nextmail/releases/download/v0.1.0/nextmail_0.1.0_x64_en-US.msi",
+          "size": 10543104
+        }
+      ]
+    }
+  ]
+}

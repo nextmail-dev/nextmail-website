@@ -1,0 +1,62 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Home from '../templates/Home.astro';
+import Features from '../templates/Features.astro';
+import Download from '../templates/Download.astro';
+import Changelog from '../templates/Changelog.astro';
+import Docs from '../templates/Docs.astro';
+import { locales, type Locale } from '../config/site';
+import { useTranslations } from '../i18n/ui';
+
+export async function getStaticPaths() {
+  const docs = await getCollection('docs');
+  return locales.flatMap((locale) => {
+    const prefix = locale === 'en' ? '' : `${locale}/`;
+    const pages = ['home', 'features', 'download', 'changelog'].map((view) => ({
+      params: {
+        page:
+          view === 'home' ? (prefix ? locale : undefined) : `${prefix}${view}`,
+      },
+      props: { locale, view, docs },
+    }));
+    const articles = docs
+      .filter((doc) => doc.data.locale === locale)
+      .map((doc) => ({
+        params: {
+          page: `${prefix}docs${doc.data.docSlug === 'getting-started' ? '' : `/${doc.data.docSlug}`}`,
+        },
+        props: { locale, view: 'docs', doc, docs },
+      }));
+    return [...pages, ...articles];
+  });
+}
+interface Props {
+  locale: Locale;
+  view: string;
+  doc?: CollectionEntry<'docs'>;
+  docs: CollectionEntry<'docs'>[];
+}
+const { locale, view, doc, docs } = Astro.props;
+const t = useTranslations(locale);
+const title =
+  view === 'home'
+    ? undefined
+    : view === 'docs'
+      ? doc?.data.title
+      : t.nav[view as 'features' | 'download' | 'changelog'];
+const description =
+  view === 'home'
+    ? t.home.description
+    : view === 'docs'
+      ? doc?.data.description
+      : t[view as 'features' | 'download' | 'changelog'].description;
+---
+
+<BaseLayout locale={locale} title={title} description={description}>
+  {view === 'home' && <Home locale={locale} />}
+  {view === 'features' && <Features locale={locale} />}
+  {view === 'download' && <Download locale={locale} />}
+  {view === 'changelog' && <Changelog locale={locale} />}
+  {view === 'docs' && doc && <Docs locale={locale} doc={doc} docs={docs} />}
+</BaseLayout>

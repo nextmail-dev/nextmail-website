@@ -1,0 +1,34 @@
+---
+title: Getting started
+description: Install the preview, choose a data directory, and connect your first account.
+locale: en
+docSlug: getting-started
+order: 1
+source: https://github.com/nextmail-dev/nextmail/blob/main/README.md
+---
+
+## Before you install
+
+NextMail is currently in **Preview**. Windows 10 22H2+ x64 and macOS 12+ on Intel or Apple Silicon are the main supported platforms. Linux x64 builds are experimental and have not received the same level of validation.
+
+Get the installer for your architecture from the [download page](/download/). Every link points to a real asset in the official GitHub repository.
+
+> Windows builds do not have production code signing. macOS builds are ad-hoc signed and are not notarized by Apple. Your operating system may show an unverified-developer warning. Only download from the official repository.
+
+## Choose where mail lives
+
+The first-run setup lets you choose a local data directory. NextMail stores its mail database and downloaded content there. Account passwords are stored separately in your operating system’s secure credential store.
+
+Local-first does not mean that every message body is already downloaded. Content you have saved is available locally; new bodies and attachments are fetched on demand by default.
+
+## Add your first account
+
+NextMail connects to mail servers through **IMAP and SMTP with password authentication**. Your provider may require an app password or an authorization code and may require you to enable IMAP/SMTP access.
+
+Automatic discovery can suggest settings for common providers and custom domains. You can adjust the server settings manually. Discovery is not a guarantee that a provider permits password-based access. OAuth sign-in is not implemented.
+
+## Let your mailbox arrive
+
+NextMail builds the folder tree first and brings in messages progressively. Sender, subject, state, attachment information, and a short preview arrive before full content. Open a message to fetch its body; open or save a particular attachment to fetch that file.
+
+Continue with [account setup](/docs/accounts/) or learn [how sync works](/docs/sync/).

@@ -1,0 +1,34 @@
+---
+title: Accounts
+description: Connect your mail provider and keep each account’s settings and content separate.
+locale: en
+docSlug: accounts
+order: 2
+source: https://github.com/nextmail-dev/nextmail/blob/main/docs/project.md
+---
+
+## Connecting a provider
+
+NextMail uses **IMAP for mail access and SMTP for sending**, with password authentication. Use the server names, ports, and TLS settings documented by your provider. Some providers require an app-specific password or an authorization code instead of the password you use on their website.
+
+Known public domains can be recognized directly. For custom domains, NextMail can use MX records to suggest a known provider, then fall back to other discovery methods or manual settings. Discovery does not send your credentials.
+
+OAuth is not implemented. A provider that requires OAuth cannot be connected with password-only authentication, even when server settings are detected correctly.
+
+## More than one account
+
+You can add, switch, edit, re-authenticate, and safely remove accounts. Mail, contacts, contact groups, sync preferences, and folder mappings are scoped to each account. The app remembers the last selected folder separately for each account.
+
+There is no unified inbox, conversation aggregation, or cross-account search. Local search can cover the current folder or selectable folders within the **current account**.
+
+## Sync preferences
+
+Accounts have independent sync strategies. Full synchronization runs when an account is first set up, when the app starts, on its configured schedule, or when you manually request mail.
+
+The documented periodic options are 1, 5, or 10 minutes; a value of 0 means manual-only scheduling. Message-body prefetch is optional per account. Attachments remain on demand.
+
+## Contacts and writing
+
+Contacts are stored locally within an account. You can create, rename, and delete contact groups, and use a group name in the To, Cc, or Bcc field to add its members. Duplicate addresses within that field are removed.
+
+The rich-text composer supports drafts, templates, signatures, replies, forwards, attachments, and inline images. Closing a compose window asks you to decide whether to save the draft.

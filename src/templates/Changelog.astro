@@ -1,0 +1,80 @@
+---
+import { ArrowUpRight } from 'lucide-astro';
+import { site, type Locale } from '../config/site';
+import { useTranslations } from '../i18n/ui';
+import { changelog } from '../data/changelog';
+import { releases } from '../lib/releases';
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+const uncurated = releases.filter(
+  (r) =>
+    !changelog.some((entry) => `v${entry.version}` === r.tag) &&
+    r.publishedAt.slice(0, 10) > (changelog[0]?.date || ''),
+);
+---
+
+<div class="shell">
+  <section class="page-heading">
+    <span class="eyebrow">{t.changelog.label}</span>
+    <h1 class="display">{t.changelog.title}</h1>
+    <p>{t.changelog.description}</p>
+  </section>
+  <div class="changelog-layout">
+    <aside class="changelog-aside">
+      <p>{t.changelog.note}</p>
+      <a class="text-link" href={site.source.changelog}>
+        {t.changelog.source}
+        <ArrowUpRight aria-hidden="true" size={14} />
+      </a>
+    </aside>
+    <div>
+      {uncurated.map((release) => (
+        <article class="changelog-entry">
+          <div class="changelog-meta mono">
+            {release.publishedAt.slice(0, 10)}
+          </div>
+          <h2>{release.tag}</h2>
+          <a class="text-link" href={release.url}>
+            GitHub Release
+            <ArrowUpRight aria-hidden="true" size={14} />
+          </a>
+        </article>
+      ))}
+      {changelog.map((entry, index) => (
+        <article class="changelog-entry" id={`v${entry.version}`}>
+          <div class="changelog-meta mono">
+            <time datetime={entry.date}>{entry.date}</time>
+            {index === 0 && !uncurated.length && (
+              <span>{t.changelog.latest}</span>
+            )}
+          </div>
+          <h2>
+            <a href={`${site.releases}/tag/v${entry.version}`}>
+              v{entry.version}
+            </a>
+            {entry.title[locale]}
+          </h2>
+          <ul>
+            {entry[locale].map((change) => (
+              <li>{change}</li>
+            ))}
+          </ul>
+          <a
+            class="text-link"
+            href={`${site.source.changelog}#${entry.version.replaceAll('.', '')}---${entry.date}`}
+          >
+            {locale === 'en' ? 'Upstream changelog' : '原始更新记录'}
+            <ArrowUpRight aria-hidden="true" size={13} />
+          </a>
+        </article>
+      ))}
+      <a class="text-link" href={site.source.changelog}>
+        {t.changelog.source}
+        <ArrowUpRight aria-hidden="true" size={16} />
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,107 @@
+---
+import {
+  Menu,
+  Sun,
+  Moon,
+  Monitor,
+  ArrowUpRight,
+  Languages,
+} from 'lucide-astro';
+import Brand from './Brand.astro';
+import { site, href, alternate, type Locale } from '../config/site';
+import { useTranslations } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+const current = Astro.url.pathname;
+const switchHref = /^\/404(?:\/|\.html)?$/.test(current)
+  ? href(locale === 'en' ? 'zh-CN' : 'en')
+  : alternate(current, locale);
+---
+
+<header class="site-header" data-header>
+  <div class="nav-inner shell">
+    <a class="brand-link" href={href(locale)} aria-label="NextMail">
+      <Brand />
+    </a>
+    <nav
+      class="desktop-nav"
+      aria-label={locale === 'en' ? 'Main navigation' : '主导航'}
+    >
+      {(['features', 'docs', 'changelog'] as const).map((key) => (
+        <a
+          href={href(locale, key)}
+          aria-current={current.includes(`/${key}`) ? 'page' : undefined}
+        >
+          {t.nav[key]}
+        </a>
+      ))}
+      <a href={site.repository} target="_blank" rel="noreferrer">
+        GitHub <ArrowUpRight aria-hidden="true" size={12} />
+      </a>
+    </nav>
+    <div class="nav-actions">
+      <a
+        class="language-switch"
+        data-language-switch
+        href={switchHref}
+        hreflang={locale === 'en' ? 'zh-CN' : 'en'}
+        aria-label={locale === 'en' ? '切换至简体中文' : 'Switch to English'}
+      >
+        <Languages aria-hidden="true" size={16} />
+        <span>{locale === 'en' ? '中' : 'EN'}</span>
+      </a>
+      <details class="theme-picker">
+        <summary aria-label={t.common.theme}>
+          <Sun aria-hidden="true" class="theme-sun" size={17} />
+          <Moon aria-hidden="true" class="theme-moon" size={17} />
+        </summary>
+        <div class="theme-options" aria-label={t.common.theme}>
+          <button type="button" data-theme-option="system">
+            <Monitor aria-hidden="true" size={15} />
+            {t.common.system}
+          </button>
+          <button type="button" data-theme-option="light">
+            <Sun aria-hidden="true" size={15} />
+            {t.common.light}
+          </button>
+          <button type="button" data-theme-option="dark">
+            <Moon aria-hidden="true" size={15} />
+            {t.common.dark}
+          </button>
+        </div>
+      </details>
+      <a class="nav-download" href={href(locale, 'download')}>
+        {t.nav.download}
+        <ArrowUpRight aria-hidden="true" size={14} />
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+        aria-label={t.common.menu}
+      >
+        <Menu aria-hidden="true" size={21} />
+      </button>
+    </div>
+  </div>
+  <nav
+    id="mobile-nav"
+    class="mobile-nav shell"
+    hidden
+    aria-label={locale === 'en' ? 'Mobile navigation' : '移动端导航'}
+  >
+    {(['features', 'docs', 'changelog', 'download'] as const).map((key) => (
+      <a href={href(locale, key)}>
+        {t.nav[key]}
+        <ArrowUpRight aria-hidden="true" size={15} />
+      </a>
+    ))}
+    <a href={site.repository}>
+      GitHub <ArrowUpRight aria-hidden="true" size={15} />
+    </a>
+  </nav>
+</header>

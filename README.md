@@ -64,9 +64,9 @@ tests/                  Node 原生测试，无额外测试运行器
 
 ## 产品事实
 
-内容核实于 2026-10-30，依据主仓库 README、README_ZH、CHANGELOG、`docs/project.md`、应用图标和截图。详见 `CONTENT_SOURCES.md`。
+内容核实于 2026-10-31，依据主仓库 README、README_ZH、CHANGELOG、`docs/project.md`、应用图标和截图。详见 `CONTENT_SOURCES.md`。
 
-当前产品仍按用户要求和 README 标记 **Preview**，尽管上游 CHANGELOG 称 1.0 为正式版本、GitHub 将 v1.1.1 标记为非预发布。网站不会据此隐去限制：Windows 无正式代码签名；macOS 为 ad-hoc 签名且未公证；Linux 属于实验性平台。
+NextMail v1.1.1 正式版已发布，当前功能已通过用户实机验收。官网按正式版状态展示产品，Windows、macOS 与 Linux x64 均为正式支持平台。当前 Windows 无正式代码签名，macOS 为 ad-hoc 签名且未公证。
 
 不宣称统一收件箱、跨账户搜索、会话聚合或 OAuth 已实现。不提供未经测试的性能数字、用户数量或评价。签名更新检查与操作系统应用签名分别说明。
 

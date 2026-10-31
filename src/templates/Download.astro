@@ -41,9 +41,7 @@ const platforms = [
   <aside class="notice download-notice">
     <ShieldAlert aria-hidden="true" size={23} />
     <div>
-      <h2>
-        {t.download.install} <span class="mono">/ PREVIEW</span>
-      </h2>
+      <h2>{t.download.install}</h2>
       <p>{t.download.warning}</p>
     </div>
   </aside>
@@ -86,11 +84,7 @@ const platforms = [
                     >
                       <div class="download-card-top">
                         <Icon aria-hidden="true" size={29} stroke-width={1.2} />
-                        <span class="micro-label">
-                          {id === 'linux'
-                            ? t.download.experimental
-                            : t.download.primary}
-                        </span>
+                        <span class="micro-label">{t.download.supported}</span>
                       </div>
                       <h3>{t.download[id]}</h3>
                       <p class="system-requirement">{t.download[`${id}Req`]}</p>
@@ -133,7 +127,7 @@ const platforms = [
   )}
   <div class="download-details">
     <div>
-      <span class="eyebrow">LINUX / {t.download.experimental}</span>
+      <span class="eyebrow">LINUX / {t.download.supported}</span>
       <p>{t.download.linuxDetail}</p>
       <a
         class="text-link"
@@ -144,8 +138,8 @@ const platforms = [
       </a>
     </div>
     <div>
-      <span class="eyebrow">PREVIEW</span>
-      <p>{latestPrerelease ? t.changelog.note : t.download.noPreview}</p>
+      <span class="eyebrow">{t.download.guide}</span>
+      <p>{t.download.guideText}</p>
       <a class="text-link" href={href(locale, 'docs')}>
         {t.footer.handbook}
         <ArrowRight aria-hidden="true" size={14} />

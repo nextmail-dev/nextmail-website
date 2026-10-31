@@ -34,3 +34,17 @@
 没有在 Cloudflare 生产环境部署或绑定域名，没有进行真实桌面邮件收发或安装包实机验收，没有执行 Lighthouse 或宣称生产 Core Web Vitals 分数。系统主题与 reduced-motion 已实现对应媒体查询；本次主要验证了手动浅深色切换，未修改操作系统的主题或辅助功能设置。
 
 上线还需连接官网仓库与 Cloudflare Pages，并完成 `next-mail.app` 的 DNS、自定义域名和 TLS 配置。具体构建设置及可选素材见 README。
+
+## 2026-10-31 正式版文案更新
+
+根据用户确认，当前应用功能已通过实机验收且正式版已发布。同步更新首页、功能、下载、更新日志、入门、安全与 FAQ 的中英文文案，移除产品预览阶段描述；保留邮件文字预览、真实预发布版本分类以及签名和公证的实际分发边界。双语分享图片已从品牌源脚本重新生成，README 快照与内容来源说明同步更新。
+
+本次实际通过 pnpm check（0 errors / 0 warnings / 0 hints）、pnpm lint、pnpm format:check、pnpm build 和全部 10 项 pnpm test。构建成功生成 18 个双语页面及 404；扫描了生成的 HTML 和搜索 JSON，确认无过时预览版声明，中英文首页均展示 v1.1.1 正式版标识。已有测试继续覆盖页面链接、锚点、图片尺寸、下载资产和搜索索引。
+
+已目视检查重新生成的中英文分享图片。本次未进行浏览器交互验收或生产部署。
+
+## 2026-10-31 Linux 正式支持
+
+根据用户确认，Linux x64 与 Windows、macOS 一样为正式支持平台。首页、页脚、功能说明、下载卡片、入门和 FAQ 双语文案均已更正，主仓库 README、项目平台约定及官网 README 快照同步更新；保留发行版系统依赖说明。
+
+本次实际通过 pnpm check（0 errors / 0 warnings / 0 hints）、pnpm lint、pnpm format:check、pnpm build 和全部 10 项 pnpm test。扫描生成的 HTML 与搜索 JSON，确认无实验性支持表述，并检查两种语言的 Linux 下载卡片均显示正式支持，包含 DEB、RPM 和 AppImage 安装包入口。

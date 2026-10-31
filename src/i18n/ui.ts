@@ -12,7 +12,7 @@ const en = {
     github: 'View on GitHub',
     allDownloads: 'All platforms',
     learn: 'Explore the features',
-    preview: 'Public preview',
+    releaseStatus: 'Stable release',
     theme: 'Color theme',
     system: 'System',
     light: 'Light',
@@ -22,8 +22,8 @@ const en = {
     source: 'Product source',
     back: 'Back to home',
     updated: 'Last checked',
-    note: 'Preview builds are not production-signed or notarized.',
-    platforms: 'Windows & macOS · Linux experimental',
+    note: 'Windows builds are not production-signed; macOS builds are not notarized.',
+    platforms: 'Windows, macOS & Linux',
   },
   home: {
     eyebrow: 'A little less noise. A little more focus.',
@@ -111,7 +111,7 @@ const en = {
     cta: {
       label: 'MAKE YOURSELF AT HOME',
       title: 'A calmer place\nfor your mail.',
-      text: 'Try the NextMail preview on your desktop.',
+      text: 'Bring NextMail to your desktop.',
     },
   },
   features: {
@@ -145,7 +145,7 @@ const en = {
       'Passwords live in the operating system’s credential store. HTML is sanitized before display, remote images remain under your control, and attachments are checked before opening or saving.',
     limitsTitle: 'Know the current boundaries.',
     limitsText:
-      'NextMail is in Preview. There is no unified inbox, cross-account search, conversation aggregation, or OAuth sign-in. Linux is experimental. Windows production signing and Apple notarization are not available.',
+      'There is no unified inbox, cross-account search, conversation aggregation, or OAuth sign-in. Windows production signing and Apple notarization are not available.',
   },
   download: {
     label: 'YOUR MAIL. YOUR DESKTOP.',
@@ -154,10 +154,9 @@ const en = {
       'Choose the build for your computer. Every download below comes directly from the NextMail GitHub repository.',
     latest: 'Latest release',
     prerelease: 'Latest pre-release',
-    stable: 'GitHub release',
+    stable: 'Stable release',
     recommended: 'For your device',
-    primary: 'Primary platform',
-    experimental: 'Experimental',
+    supported: 'Official support',
     windows: 'Windows',
     macos: 'macOS',
     linux: 'Linux',
@@ -165,10 +164,10 @@ const en = {
     macosReq: 'macOS 12 or later',
     linuxReq: 'Linux x64 · distribution dependencies apply',
     linuxDetail:
-      'DEB, RPM, and AppImage builds are for early testing. Linux has not received the same validation as Windows and macOS; compatibility depends on your distribution and Tauri system dependencies.',
+      'Linux x64 is officially supported, with DEB, RPM, and AppImage packages. Install the system dependencies required by your distribution.',
     install: 'Before you install',
     warning:
-      'This is Preview software. Windows builds do not have production code signing. macOS builds are ad-hoc signed and are not Apple-notarized. Your OS may show an unverified-developer warning. Only download from the official repository.',
+      'Windows builds do not have production code signing. macOS builds are ad-hoc signed and are not Apple-notarized. Your OS may show an unverified-developer warning. Only download from the official repository.',
     unavailable:
       'Release data is currently unavailable. Get verified builds from GitHub Releases.',
     history: 'Looking for an earlier version?',
@@ -176,8 +175,9 @@ const en = {
     changelog: 'Read the changelog',
     refresh:
       'This static page reflects the release snapshot checked below. GitHub Releases always has the latest available assets.',
-    noPreview:
-      'No separately marked GitHub pre-release is currently available. NextMail remains in Preview regardless of the GitHub release label.',
+    guide: 'Getting started',
+    guideText:
+      'Choose a data directory, connect your email account, and let messages arrive. The handbook walks you through each step.',
     requirements: 'System requirements',
     asset: 'Download',
   },
@@ -203,7 +203,7 @@ const en = {
       'Selected release notes, drawn from the actual project changelog. Follow the details as NextMail takes shape.',
     latest: 'LATEST',
     source: 'Read the complete changelog',
-    note: 'The product remains in Preview. Version numbers and GitHub release labels do not change the current signing or platform limitations.',
+    note: 'Highlights from recent releases. See the complete changelog for the full history.',
     changes: 'Changes',
   },
   footer: {
@@ -215,7 +215,7 @@ const en = {
     issues: 'Report an issue',
     source: 'Source code',
     credit: 'Built with care. Built in the open.',
-    notice: 'Preview · Windows & macOS · Linux experimental',
+    notice: 'Windows, macOS & Linux',
   },
 };
 
@@ -232,7 +232,7 @@ const zh: Dictionary = {
     github: '在 GitHub 查看',
     allDownloads: '所有平台',
     learn: '探索全部功能',
-    preview: '公开预览版',
+    releaseStatus: '正式版',
     theme: '外观主题',
     system: '跟随系统',
     light: '浅色',
@@ -242,8 +242,8 @@ const zh: Dictionary = {
     source: '产品资料',
     back: '返回首页',
     updated: '数据核实于',
-    note: '预览版尚未正式签名或通过 Apple 公证。',
-    platforms: 'Windows 与 macOS · Linux 实验支持',
+    note: 'Windows 尚未正式签名，macOS 尚未通过 Apple 公证。',
+    platforms: 'Windows、macOS 与 Linux',
   },
   home: {
     eyebrow: '少一点打扰，多一点从容。',
@@ -330,7 +330,7 @@ const zh: Dictionary = {
     cta: {
       label: '回到自己的节奏',
       title: '给邮件，\n一个安静的地方。',
-      text: '在你的桌面上，试试 NextMail 预览版。',
+      text: '在你的桌面上，开始使用 NextMail。',
     },
   },
   features: {
@@ -359,7 +359,7 @@ const zh: Dictionary = {
       '账户密码保存在操作系统的安全凭据库。HTML 显示前先清理，远程图片由你控制；附件经过检查后，才允许打开或保存。',
     limitsTitle: '也把当前边界说明白。',
     limitsText:
-      'NextMail 仍处于 Preview。目前不提供统一收件箱、跨账户搜索、会话聚合或 OAuth 登录。Linux 属于实验支持；Windows 正式签名与 Apple 公证尚未提供。',
+      '目前不提供统一收件箱、跨账户搜索、会话聚合或 OAuth 登录。Windows 正式签名与 Apple 公证尚未提供。',
   },
   download: {
     label: '自己的邮件，自己的桌面',
@@ -368,10 +368,9 @@ const zh: Dictionary = {
       '选择适合你电脑的版本。下方所有下载，均直接来自 NextMail 官方 GitHub 仓库。',
     latest: '最新版本',
     prerelease: '最新预发布版本',
-    stable: 'GitHub 发布版本',
+    stable: '正式版',
     recommended: '适合你的设备',
-    primary: '主要支持平台',
-    experimental: '实验性支持',
+    supported: '正式支持',
     windows: 'Windows',
     macos: 'macOS',
     linux: 'Linux',
@@ -379,10 +378,10 @@ const zh: Dictionary = {
     macosReq: 'macOS 12 或更新版本',
     linuxReq: 'Linux x64 · 需满足发行版系统依赖',
     linuxDetail:
-      'DEB、RPM 与 AppImage 用于早期测试。Linux 尚未经过与 Windows、macOS 同等程度的适配与验收，兼容性取决于发行版和 Tauri 系统依赖。',
+      '正式支持 Linux x64，提供 DEB、RPM 和 AppImage 安装包；安装时需满足发行版的系统依赖。',
     install: '安装前，请先了解',
     warning:
-      '当前为预览版。Windows 尚未使用正式代码签名；macOS 使用 ad-hoc 签名，尚未通过 Apple 公证。系统可能显示“开发者未经验证”等提示。请只从官方仓库下载。',
+      'Windows 尚未使用正式代码签名；macOS 使用 ad-hoc 签名，尚未通过 Apple 公证。系统可能显示“开发者未经验证”等提示。请只从官方仓库下载。',
     unavailable:
       '暂时无法取得版本数据，请前往 GitHub Releases 下载真实发布版本。',
     history: '需要更早的版本？',
@@ -390,8 +389,9 @@ const zh: Dictionary = {
     changelog: '阅读更新日志',
     refresh:
       '此静态页面对应下方核实时间的版本快照。最新可用文件始终以 GitHub Releases 为准。',
-    noPreview:
-      '目前没有单独标记为 GitHub 预发布的版本。无论 GitHub 如何标记，NextMail 当前仍处于 Preview。',
+    guide: '开始使用',
+    guideText:
+      '选择邮件存放位置，连接邮箱账户，让新邮件逐步到达。使用手册会带你完成设置。',
     requirements: '系统要求',
     asset: '下载',
   },
@@ -415,7 +415,7 @@ const zh: Dictionary = {
     description: '根据项目真实更新日志整理的近期变化。每一次改进，都有迹可循。',
     latest: '最新',
     source: '阅读完整更新日志',
-    note: '产品仍处于 Preview。版本号和 GitHub 发布标记不代表签名、公证与平台限制已经改变。',
+    note: '这里精选了近期版本的主要变化，完整历史请查看项目更新日志。',
     changes: '版本变化',
   },
   footer: {
@@ -427,7 +427,7 @@ const zh: Dictionary = {
     issues: '反馈问题',
     source: '源代码',
     credit: '用心构建，开放成长。',
-    notice: 'Preview · Windows 与 macOS · Linux 实验支持',
+    notice: 'Windows、macOS 与 Linux',
   },
 };
 

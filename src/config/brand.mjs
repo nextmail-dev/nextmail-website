@@ -7,7 +7,7 @@ export const site = {
   releases: `${repository}/releases`,
   releasesApi: 'https://api.github.com/repos/nextmail-dev/nextmail/releases',
   issues: `${repository}/issues`,
-  preview: true,
+  preview: false,
   source: {
     readme: `${repository}/blob/main/README.md`,
     project: `${repository}/blob/main/docs/project.md`,

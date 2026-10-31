@@ -95,7 +95,6 @@ test('download page only links to installable assets in the fetched snapshot', a
       assert.ok(!/\.(sig|json|gz)$/.test(match[1]));
     }
     assert.ok(html.includes('ad-hoc'));
-    assert.ok(html.includes('Preview') || html.includes('PREVIEW'));
   }
 });
 

@@ -1,12 +1,12 @@
 # 内容来源与核实边界
 
-核实日期：2026-10-30。主仓库：[nextmail-dev/nextmail](https://github.com/nextmail-dev/nextmail)，产品资料依据提交 `1a7b314eacc05afb58e34783a39d1fd1a5a65867`（v1.1.1）。
+核实日期：2026-10-31。主仓库：[nextmail-dev/nextmail](https://github.com/nextmail-dev/nextmail)，产品资料依据提交 `1a7b314eacc05afb58e34783a39d1fd1a5a65867`（v1.1.1）。
 
 工作区截图已同步至 [00264c7](https://github.com/nextmail-dev/nextmail/commit/00264c73831b0a765fcce021e8ac7fe4c6163a1c)（2026-10-30）。中英文浅色与深色四张图片均校验了上游 Git blob SHA，只移除外围透明留白，保留原始窗口与内容；首页、功能展示和双语社交分享图共用这些素材。
 
 | 资料                                                                                                                                         | 本站使用范围                                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [README.md](https://github.com/nextmail-dev/nextmail/blob/1a7b314eacc05afb58e34783a39d1fd1a5a65867/README.md)                                | 本地优先、同步机制、Preview、平台最低版本、签名与公证限制                          |
+| [README.md](https://github.com/nextmail-dev/nextmail/blob/1a7b314eacc05afb58e34783a39d1fd1a5a65867/README.md)                                | 本地优先、同步机制、平台最低版本、签名与公证限制                                   |
 | [README_ZH.md](https://github.com/nextmail-dev/nextmail/blob/1a7b314eacc05afb58e34783a39d1fd1a5a65867/README_ZH.md)                          | 中文术语与对应功能表述                                                             |
 | [CHANGELOG.md](https://github.com/nextmail-dev/nextmail/blob/1a7b314eacc05afb58e34783a39d1fd1a5a65867/CHANGELOG.md)                          | 近期真实版本、日期与变化；双语摘要为人工整理，并非完整历史复制                     |
 | [docs/project.md](https://github.com/nextmail-dev/nextmail/blob/1a7b314eacc05afb58e34783a39d1fd1a5a65867/docs/project.md)                    | IMAP/SMTP 密码认证、无 OAuth、账户内搜索、联系人分组、通知限制、同步选项与凭据存储 |
@@ -14,7 +14,7 @@
 | [app-icon.png](https://github.com/nextmail-dev/nextmail/blob/1a7b314eacc05afb58e34783a39d1fd1a5a65867/assets/app-icon.png)                   | 原始图标、导航图标、favicon、社交图品牌元素                                        |
 | [GitHub Releases API](https://api.github.com/repos/nextmail-dev/nextmail/releases)                                                           | 真实版本、发布日期、预发布标记、文件名、文件大小和下载 URL；构建时刷新             |
 
-README 与用户需求仍定义为 Preview；CHANGELOG 的 1.0 发布描述与 GitHub 非预发布标签不作为移除 Preview 的依据。当前签名、公证及 Linux 适配边界始终保留。
+2026-10-31 用户确认当前实机验收均已通过，正式版已经发布；官网据此移除预览阶段描述，首页、功能、下载、文档、更新日志和分享图片统一使用正式版文案。README 快照同步自主仓库当前工作区，表中的提交链接保留已发布版本的技术来源；用户同时确认 Linux x64 为正式支持平台，官网与主仓库 README 已统一该表述；当前签名和公证限制继续保留。
 
 不存在的统一收件箱、跨账户搜索、会话聚合不作为现有功能展示。没有第三方评价、用户数字、客户 logo 或未经实测的性能指标。安全说明只描述已实现机制，不承诺“绝对安全”或端到端加密。
 

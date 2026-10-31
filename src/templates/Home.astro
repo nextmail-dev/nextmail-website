@@ -30,7 +30,10 @@ const icons = [HardDrive, RefreshCw, Download];
       <a class="release-link mono" href={href(locale, 'changelog')}>
         <span class="status-dot"></span>
         {latestRelease?.tag || 'NextMail'}{' '}
-        <span class="release-divider">/</span> {t.common.preview}
+        <span class="release-divider">/</span>{' '}
+        {latestRelease?.prerelease
+          ? t.download.prerelease
+          : t.common.releaseStatus}
         <ArrowRight aria-hidden="true" size={13} />
       </a>
       <h1 class="hero-title">
